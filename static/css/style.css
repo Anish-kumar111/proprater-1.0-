@@ -669,10 +669,9 @@ select.form-search2{
     position: relative;
 } */
 .owl-carousel .owl-nav.disabled {
-    /* display: block; */
+    display: block;
     position: absolute;
-    left: 0;
-    bottom: 0;
+   
 
     
 }
@@ -747,7 +746,7 @@ select.form-search2{
         margin: 7%;
         position: absolute;
         right: 15%;
-        top: 80%;
+        top: 50%;
         left: 15%;
         z-index: 10;
         padding-top: 20px;
@@ -807,16 +806,20 @@ select.form-search2{
     .search-img{
         height: 50vh;
     }
+    .img-banner {
+        height: 48vh;
+        width: 100%;
+    }
     #owl-banner .owl-left{
         position: absolute;
-        bottom: 40vh;
+        bottom: 25vh;
         left: -2.5vh;
         /* float: left; */
     }
     
     #owl-banner .owl-right{
         position: absolute;
-        bottom: 40vh;
+        bottom: 25vh;
         left: 85%;
         /* float: right; */
     }
@@ -833,6 +836,14 @@ select.form-search2{
         bottom: 20vh;
         left: 86%;
         /* float: right; */
+    }
+    .owl-carousel .owl-nav.disabled {
+        display: none;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    
+        
     }
   }
 
@@ -931,7 +942,7 @@ select.form-search2{
     .owl-right{
         position: absolute;
         bottom: 20vh;
-        left: 90%;
+        left: 90.6%;
         /* float: right; */
     }
     .banner-col{
@@ -958,7 +969,19 @@ select.form-search2{
             
               margin: 2%;
         }
-  }
+        .owl-carousel .owl-nav.disabled {
+            display: none;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        
+            
+        }
+    }
+
+
+
+
   @media only screen and (min-width: 600px) {
 
     .banner-col{
@@ -1018,7 +1041,19 @@ select.form-search2{
             
               margin: 0;
         }
-   }  
+        .owl-carousel .owl-nav.disabled {
+            display: none;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        
+            
+        }
+    }  
+
+
+
+
    @media only screen and (min-width: 720px) {
 
     .banner-col{
@@ -1079,7 +1114,14 @@ select.form-search2{
             
               margin: 0;
         }
+        .owl-carousel .owl-nav.disabled {
+            display: none;
+            position: absolute;
+            left: 0;
+            bottom: 0;
         
+            
+        }  
    }  
 
 
@@ -1143,6 +1185,85 @@ select.form-search2{
         select.form-search2{
             
               margin: 0;
+         }
+         .owl-carousel .owl-nav.disabled {
+            display: none;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        
+            
+        }
+
+        }  
+   @media only screen and (min-width: 1024px) {
+
+    .banner-col{
+     margin: 0;
+    }
+     .search-img{
+         height: 50vh;
+     }
+     #owl-banner .owl-left{
+         position: absolute;
+         bottom: 40vh;
+         left: -2.5vh;
+         /* float: left; */
+     }
+     
+     #owl-banner .owl-right{
+         position: absolute;
+         bottom: 40vh;
+         left: 98%;
+         /* float: right; */
+     }
+     
+     .owl-left{
+         position: absolute;
+         bottom: 20vh;
+         left: -2.5vh;
+         /* float: left; */
+     }
+     
+     .owl-right{
+         position: absolute;
+         bottom: 20vh;
+         left: 191.0vh;
+         /* float: right; */
+     }
+
+     .banner-col{
+        margin: 0%;
+        padding: 2%;
+    }
+    .search-bar input {
+        height: auto;
+        margin: 0;
+        
+    }
+        select.form-search{
+           
+            margin: 0;
+              ;
+        }
+        
+        select.form-search1{
+          
+              
+              margin: 0;
+        }
+        select.form-search2{
+            
+              margin: 0;
+        }
+
+        .owl-carousel .owl-nav.disabled {
+            display: inline-block;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        
+            
         }
    }  
 
