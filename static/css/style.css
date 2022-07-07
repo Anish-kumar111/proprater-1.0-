@@ -17,7 +17,7 @@ body
 }
 
 section{
-    margin: 2em;
+    margin: 0;
     
 }
 .navbar
@@ -27,25 +27,26 @@ section{
 
     
 }
-.navbar a
+.navbar li a
 {
  color: black;
- margin-left: 7vh;
+ 
  font-size: 2vh;
  
 }
-.navbar ul {
+.navbar ul  {
     /* background-color: #4a4a4c61; */
    text-transform: uppercase;
+  
 }
-
+.navbar .nav-item {
+    margin: 1% 1.5em 1% 1.5em;
+}
 .navbar-collapse{
     z-index: 999;
 }
 .navbar-light .navbar-nav .nav-link {
-    /* color: rgb(179, 145, 145);
-    -webkit-text-stroke: 1px black;
-    font-weight: bolder; */
+    color: black;
 }
 .btn
 {
@@ -287,7 +288,7 @@ select.form {
 
 .img-up{
     top: 0vh;
-    bottom: 20vh;
+    bottom: 47%;
     left: 65vh;
    position: relative;
    
@@ -355,13 +356,19 @@ select.form {
 
 
  /* homepage ###########################################################################################################################################*/
+ #banner{
+    margin: 0;
+    
+}
+
+
 
 .option-bar{
     margin: 0 20% 0;
 }
 
 .img-banner{
-    height: 70vh;
+    height: 87vh;
     width: 100%;
 }
 
@@ -682,28 +689,28 @@ select.form-search2{
 
 #owl-banner .owl-left{
     position: absolute;
-    bottom: 40vh;
-    left: -2.5vh;
+    bottom: 47%;
+    left: 0.5%;
     float: left;
 }
 
 #owl-banner .owl-right{
     position: absolute;
-    bottom: 40vh;
+    bottom: 47%;
     left: 95%;
     float: right;
 }
 
 .owl-left{
     position: absolute;
-    bottom: 20vh;
-    left: -2.5vh;
+    bottom: 47%;
+    left: 0.5%;
     float: left;
 }
 
 .owl-right{
     position: absolute;
-    bottom: 20vh;
+    bottom: 47%;
     left: 192.5vh;
     float: right;
 }
@@ -715,7 +722,7 @@ select.form-search2{
  position: absolute;
  left: 0;
  right: 0; 
- bottom: 20vh;  
+ bottom: 47%;  
  z-index: 100;
 
 }
@@ -735,7 +742,7 @@ select.form-search2{
 /* mobile css */
 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (min-width: 320px) {
 
     .banner-col{
         margin: 2%;
@@ -746,7 +753,7 @@ select.form-search2{
         margin: 7%;
         position: absolute;
         right: 15%;
-        top: 50%;
+        top: 49%;
         left: 15%;
         z-index: 10;
         padding-top: 20px;
@@ -813,30 +820,30 @@ select.form-search2{
     #owl-banner .owl-left{
         position: absolute;
         bottom: 25vh;
-        left: -2.5vh;
+        left: 0.5%;
         /* float: left; */
     }
     
     #owl-banner .owl-right{
         position: absolute;
         bottom: 25vh;
-        left: 85%;
+        left: 81%;
         /* float: right; */
     }
     
     .owl-left{
         display: none;
         position: absolute;
-        bottom: 20vh;
-        left: -2.5vh;
+        bottom: 47%;
+        left: -8.5%;
         /* float: left; */
     }
     
     .owl-right{
         display: none;
         position: absolute;
-        bottom: 20vh;
-        left: 86%;
+        bottom: 47%;
+        left: 85%;
         /* float: right; */
     }
     .owl-carousel .owl-nav.disabled {
@@ -849,7 +856,7 @@ select.form-search2{
     }
   }
 
-  @media only screen and (min-width: 321px) {
+  @media only screen and (min-width: 332px) {
 
     .banner-col{
         margin: 2%;
@@ -860,7 +867,7 @@ select.form-search2{
         margin: 7%;
         position: absolute;
         right: 15%;
-        top: 80%;
+        top: 53%;
         left: 15%;
         z-index: 10;
         padding-top: 20px;
@@ -922,29 +929,29 @@ select.form-search2{
     }
     #owl-banner .owl-left{
         position: absolute;
-        bottom: 40vh;
-        left: -2.5vh;
+        bottom: 47%;
+        left: 0.5%;
         /* float: left; */
     }
     
     #owl-banner .owl-right{
         position: absolute;
-        bottom: 40vh;
-        left: 90%;
+        bottom: 47%;
+        left: 82%;
         /* float: right; */
     }
     
     .owl-left{
         position: absolute;
-        bottom: 20vh;
+        bottom: 47%;
         left: -2.5vh;
         /* float: left; */
     }
     
     .owl-right{
         position: absolute;
-        bottom: 20vh;
-        left: 90.6%;
+        bottom: 47%;
+        left: 85.6%;
         /* float: right; */
     }
     .banner-col{
@@ -982,7 +989,140 @@ select.form-search2{
     }
 
 
+    @media only screen and (min-width: 520px) {
 
+        .banner-col{
+            margin: 2%;
+            padding: 2%;
+        }
+    
+        .search-bar{
+            margin: 7%;
+            position: absolute;
+            right: 15%;
+            top: 50%;
+            left: 15%;
+            z-index: 10;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: #fff;
+            text-align: center;
+        }
+    .search-bar input {
+        height: 15px;
+        font-size: 14px;
+        margin: 2%;
+        border-radius: 1px;
+    }
+        select.form-search{
+            border: 1px #ced4da solid;
+            
+            color: #080808 ;
+            font-size: 15px;
+            font-weight: 600;
+            text-align: center;
+            padding: 0 4px 0 4px;
+            margin: 2%;
+              ;
+        }
+        
+        select.form-search1{
+            border: 1px #ced4da solid;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            
+            color: #080808 ;
+            font-size: 15px;
+            font-weight: 600;
+            text-align: center;
+            padding: 0 4px 0 4px
+        
+              ;
+              margin: 2%;
+        }
+        select.form-search2{
+            border: 1px #ced4da solid;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            color: #080808 ;
+            font-size: 15px;
+            font-weight: 600;
+            text-align: center;
+            padding: 0 4px 0 4px
+        
+              ;
+              margin: 2%;
+        }
+        
+        /* .space{
+            padding-top: 40em ;
+        } */
+        .search-img{
+            height: 50vh;
+        }
+        #owl-banner .owl-left{
+            position: absolute;
+            bottom: 47%;
+            left: 0.5%;
+            /* float: left; */
+        }
+        
+        #owl-banner .owl-right{
+            position: absolute;
+            bottom: 47%;
+            left: 87.5%;
+            /* float: right; */
+        }
+        
+        .owl-left{
+            position: absolute;
+            bottom: 47%;
+            left: -2.5vh;
+            /* float: left; */
+        }
+        
+        .owl-right{
+            position: absolute;
+            bottom: 47%;
+            left: 90.6%;
+            /* float: right; */
+        }
+        .banner-col{
+            margin: 2%;
+            padding: 2%;
+        }
+        .search-bar input {
+            height: auto;
+            margin: 2%;
+            
+        }
+            select.form-search{
+               
+                margin: 2%;
+                  ;
+            }
+            
+            select.form-search1{
+              
+                  
+                  margin: 2%;
+            }
+            select.form-search2{
+                
+                  margin: 2%;
+            }
+            .owl-carousel .owl-nav.disabled {
+                display: none;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            
+                
+            }
+        }
+    
+    
+    
 
   @media only screen and (min-width: 600px) {
 
@@ -994,28 +1134,28 @@ select.form-search2{
      }
      #owl-banner .owl-left{
          position: absolute;
-         bottom: 40vh;
-         left: -2.5vh;
+         bottom: 47%;
+         left: 0.5%;
          /* float: left; */
      }
      
      #owl-banner .owl-right{
          position: absolute;
-         bottom: 40vh;
-         left: 92%;
+         bottom: 47%;
+         left: 89.5%;
          /* float: right; */
      }
      
      .owl-left{
          position: absolute;
-         bottom: 20vh;
-         left: -2.5vh;
+         bottom: 47%;
+         left: 0.5%;
          /* float: left; */
      }
      
      .owl-right{
          position: absolute;
-         bottom: 20vh;
+         bottom: 47%;
          left: 59vh;
          /* float: right; */
      }
@@ -1066,28 +1206,28 @@ select.form-search2{
      }
      #owl-banner .owl-left{
          position: absolute;
-         bottom: 40vh;
-         left: -2.5vh;
+         bottom: 47%;
+         left: 0.5%;
          /* float: left; */
      }
      
      #owl-banner .owl-right{
          position: absolute;
-         bottom: 40vh;
-         left: 94%;
+         bottom: 47%;
+         left: 90.7%;
          /* float: right; */
      }
      
      .owl-left{
          position: absolute;
-         bottom: 20vh;
-         left: -2.5vh;
+         bottom: 47%;
+         left: 0.5%;
          /* float: left; */
      }
      
      .owl-right{
          position: absolute;
-         bottom: 20vh;
+         bottom: 47%;
          left: 72vh;
          /* float: right; */
      }
@@ -1138,28 +1278,28 @@ select.form-search2{
      }
      #owl-banner .owl-left{
          position: absolute;
-         bottom: 40vh;
-         left: -2.5vh;
+         bottom: 47%;
+         left: 0.5%;
          /* float: left; */
      }
      
      #owl-banner .owl-right{
          position: absolute;
-         bottom: 40vh;
-         left: 95%;
+         bottom: 47%;
+         left: 92.5%;
          /* float: right; */
      }
      
      .owl-left{
          position: absolute;
-         bottom: 20vh;
-         left: -2.5vh;
+         bottom: 47%;
+         left: 94vh;
          /* float: left; */
      }
      
      .owl-right{
          position: absolute;
-         bottom: 20vh;
+         bottom: 47%;
          left: 94vh;
          /* float: right; */
      }
@@ -1196,27 +1336,44 @@ select.form-search2{
         
             
         }
+        .search-bar{
+            margin: 7%;
+            position: absolute;
+            right: 15%;
+            top: 100%;
+            left: 15%;
+            z-index: 10;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: #fff;
+            text-align: center;
+        }
 
         }  
+
+
+
+
+
    @media only screen and (min-width: 1024px) {
 
     .banner-col{
      margin: 0;
     }
      .search-img{
-         height: 50vh;
+         height: 70vh;
      }
      #owl-banner .owl-left{
          position: absolute;
-         bottom: 40vh;
-         left: -2.5vh;
+         bottom: 47%;
+         left: 0.5%;
          /* float: left; */
      }
      
      #owl-banner .owl-right{
          position: absolute;
-         bottom: 40vh;
-         left: 98%;
+         bottom: 47%;
+         left: 96.6%;
          /* float: right; */
      }
      
@@ -1230,7 +1387,7 @@ select.form-search2{
      .owl-right{
          position: absolute;
          bottom: 20vh;
-         left: 192.5vh;
+         left: 185.7vh;
          /* float: right; */
      }
 
@@ -1271,7 +1428,7 @@ select.form-search2{
             margin: 7%;
             position: absolute;
             right: 15%;
-            top: 70%;
+            top: 84%;
             left: 15%;
             z-index: 10;
             padding-top: 20px;
@@ -1332,9 +1489,36 @@ select.form-search2{
             border: rgba(255, 255, 255, 0);
            
         }
+        .img-banner{
+            width: 100%;
+            height: 87vh;
+        }
+
+        .search-bar{
+            margin: 7%;
+            position: absolute;
+            right: 15%;
+            top: 90%;
+            left: 15%;
+            z-index: 10;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: #fff;
+            text-align: center;
+        }
     }
 
 
-  
+    @media only screen and (max-width: 990px){
+        .navbar-light .navbar-nav .nav-link {
+            color: black;
+        }
+        .navbar ul{
+            padding-top: 5%;
+            background-color: #e9ecef85;
+            z-index: 999;
+        }
+
+    }
    
    
