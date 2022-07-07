@@ -825,6 +825,7 @@ select.form-search2{
     }
     
     .owl-left{
+        display: none;
         position: absolute;
         bottom: 20vh;
         left: -2.5vh;
@@ -832,6 +833,7 @@ select.form-search2{
     }
     
     .owl-right{
+        display: none;
         position: absolute;
         bottom: 20vh;
         left: 86%;
@@ -847,7 +849,7 @@ select.form-search2{
     }
   }
 
-  @media only screen and (min-width: 480px) {
+  @media only screen and (min-width: 321px) {
 
     .banner-col{
         margin: 2%;
