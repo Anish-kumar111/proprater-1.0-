@@ -1,3 +1,10 @@
+
+
+.star-rating{
+    align-self: center;
+    padding: 1%;
+    margin: 0 2% 0;
+}
 .jumbotron{
     list-style-type: none;
 }
@@ -26,6 +33,7 @@ li.floor-btn button.btn-primary{
     border: 0px;
     font-size: 25px;
     font-weight: bold;
+    
     /* width: 50%; */
 }
 
@@ -84,6 +92,25 @@ div.contact-form div.form{
 }
 
 
+
+.responsive-map{
+    overflow: hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    border: 1px solid black;
+    }
+    .responsive-map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+
+
+
 #owl-s-prop .owl-prop-left{
     position: absolute;
     bottom: 47%;
@@ -92,6 +119,20 @@ div.contact-form div.form{
 }
 
 #owl-s-prop .owl-prop-right{
+    position: absolute;
+    bottom: 47%;
+    left: 100%;
+    float: right;
+}
+
+#owl-floorplan .owl-prop-left2{
+    position: absolute;
+    bottom: 47%;
+    right: 100%;
+    float: left;
+}
+
+#owl-floorplan .owl-prop-right2{
     position: absolute;
     bottom: 47%;
     left: 100%;
