@@ -11,3 +11,8 @@ def interior(request):
 
 
     return render(request, 'interior.html')
+
+def projects(request):
+
+
+    return render(request, 'projects.html')    

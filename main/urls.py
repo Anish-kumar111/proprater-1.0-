@@ -13,5 +13,6 @@ urlpatterns = [
     # path('categories/<slug>', views.category, name='category'),
     # path('supcategories/<slug>', views.supcategory, name='supcategory'),
     path('interior/',views.interior,name='interior'),
+    path('projects/',views.projects,name='projects'),
     # path("search/", SearchResultsView.as_view(), name="search"),
 ]

@@ -1,0 +1,99 @@
+.jumbotron{
+    list-style-type: none;
+}
+.jumbotron-card{
+    /* max-width: 100%; */
+    width: 50%;
+    height: fit-content;
+    list-style-type: none;
+   
+}
+
+ li.jumbocard-btn button.btn-primary{
+    border-radius: 0;
+    margin: 0;
+    background-color:hsl(259deg 100% 50%) ;
+    border: 0px;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+li.floor-btn button.btn-primary{
+    /* border-radius: 0; */
+    margin: 0;
+    background-color:hsl(259deg 100% 50%) ;
+    border: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    /* width: 50%; */
+}
+
+.advertisement{
+    background-color: black;
+    color: white;
+    width: 49%;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+section{
+    padding: 1%;
+    margin:2%;
+    z-index: -100;
+}
+
+div.contact-form{
+  /* margin-left: 50%; */
+  width: 37%;
+  background-color: white;
+  padding: 50px;
+  font-size: 20px;
+  box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
+ z-index: 100;
+ height: fit-content;
+
+ list-style-type: none;
+}
+div.contact-form div.form{
+    padding: 4%;
+
+}
+.contact-btn{
+    border-radius: 0;
+    margin: 0;
+    background-color:rgb(255, 136, 0) ;
+    border: 0px;
+    padding: 2% 0 2%;
+
+}
+
+
+
+.navbar{
+    z-index: 100;
+   
+}
+
+/* .contact{
+    transition: all 0.3s;
+} */
+
+.stickyspace{
+    margin: 0;
+}
+
+
+#owl-s-prop .owl-prop-left{
+    position: absolute;
+    bottom: 47%;
+    right: 100%;
+    float: left;
+}
+
+#owl-s-prop .owl-prop-right{
+    position: absolute;
+    bottom: 47%;
+    left: 100%;
+    float: right;
+}

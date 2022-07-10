@@ -1,0 +1,402 @@
+*
+
+
+{
+    padding: 0;
+    margin: 0;
+
+}
+body
+{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+
+   
+}
+
+section{
+    margin: 2em ;
+    
+}
+.navbar
+{
+    height: 10vh;
+    box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
+
+    
+}
+.navbar li a
+{
+ color: black;
+ 
+ font-size: 2vh;
+ 
+}
+.navbar ul  {
+    /* background-color: #4a4a4c61; */
+   text-transform: uppercase;
+  
+}
+.navbar .nav-item {
+    margin: 1% 1.5em 1% 1.5em;
+}
+.navbar-collapse{
+    z-index: 999;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+.btn
+{
+    font-size: 2vh;
+   margin-left: 2vh; 
+    border-radius: 5vh;
+}
+.banner
+{
+    padding: 4%;
+}
+
+/* .banner h1{
+font-size: 80px;
+}
+
+.banner h5{
+font-size: 20px;
+} */
+
+
+
+.col-03
+{
+    max-width: 100%;
+    max-height: fit-content;
+    background: #387c4b;
+    margin-top: 5vh;
+    margin: 5vh .2em 0 0;
+    box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
+}
+
+.col-04{
+    max-width: 100%;
+    max-height: fit-content;
+    background: #387c4b;
+    margin-top: 5vh;
+    box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
+}
+.col-05
+{
+    max-width: 100%;
+    max-height: fit-content;
+    background: #387c4b;
+    margin-top: 5vh;
+    box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
+}
+.col-content
+{
+    color: white;
+    padding: 4vh ;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.col-content2
+{   
+    color: black;
+    
+    margin: 1em  0em 25em 0em ;
+    display: flex;
+    justify-content: space-between;
+}
+.col-content h5
+{
+    
+
+text-align: right;
+}
+.col-content p
+{
+    margin: .5em;
+    padding: .5em;
+
+text-align: left;
+}
+.booking-btn
+{   
+}
+
+.booking-btn button{  
+    /* height: 30px;
+    width: 60px;
+    font-size: 5px; */
+    margin: 20px 0 30px;
+}
+.col-06
+{   
+    /* position: relative; */
+    margin: 0 .5em 0;
+    max-width: 100%;
+    max-height: fit-content;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: #e6f1e9;
+    margin: 2%;
+    
+text-align: center;
+padding: 4% 4% 4% 4% ;
+color: rgb(11, 126, 1);
+box-shadow: 7px  7px 7px 0 rgba(101, 104, 108, 0.2);
+border: 1px solid rgba(192, 192, 192, 0.595);
+}
+.col-07
+{
+    
+   
+    background: #0a3112;
+    margin-top: 5vh;
+    box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
+}
+
+.col-08
+{    
+    margin-bottom: 30vh;
+    /* background: #0a3112; */
+    box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
+    
+
+}
+.form-control{
+    border-radius: 1.25em;
+    font-size: 20px;
+
+}
+.searchrow .form-control2{
+   
+    border: 1px #ced4da solid;
+
+}
+
+select.form{
+    border: 1px #ced4da solid;
+    border-radius:1.25em ;
+    color: #6c757d ;
+      ;
+}
+
+select.form {
+    --select-border: #777;
+    --select-focus: blue;
+    --select-arrow: var(--select-border);
+  }
+
+.btn-form{
+    background-color: #387c4b;
+    border: black;
+    color: white;
+}
+
+.btn-form:hover{
+    background-color: rgb(10, 10, 10);
+    border: wheat;
+    color: white;
+}
+
+.boxes:hover {
+    transform:scale(1.1) ;
+    transition: all 0.3s ease-out;
+    opacity: 0.9;
+    /* border: 2px solid rgb(7, 7, 7) ; */
+   
+
+    /* background-color: green; */
+
+}
+
+.newsletter{
+    /* margin-top: 5vh; */
+    background-color: #387c4b;
+    color: white;
+    box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
+    
+}
+.newsletterform{
+    align-self: center;
+}
+.newsletterform input{
+
+        width: 100%;
+        border-radius: 40px;
+        height: 60px;
+    
+}
+.newsletterform h3{
+   font-size: 45px;
+   padding-bottom: 3vh;
+}
+
+.icon-box{
+    right: 30%;
+    padding: 40px 50px;
+    /* position: relative; */
+    overflow: hidden;
+    background: rgb(226, 218, 218);
+    
+    box-shadow: 5px 20px 29px 0 rgba(30, 30, 30, 0.2);
+    transition: all 0.3s ease-in-out;
+    /* border-radius: 10px; */
+}
+.absolute {
+    position: absolute;
+    /* bottom: -501%; */
+    top: 541%;
+    left: 15%;
+    right: 15%;
+    margin: 0 0vh 0;
+}
+
+.p-5{
+    background-color: #262626;
+}
+
+.footer{
+    color: #a5a5a5;
+    background-color: #1b1b25;
+}
+
+.footer p{
+    color: #4a4a4c;
+    
+}
+
+.btn-success{
+    background-color: #387c4b;
+}
+
+.foot-title{
+    color: #db7a35;
+}
+
+.carousel{
+    margin: 1em 3em 10em;
+}
+
+.customised{
+    margin-right: 10vh;
+
+}
+
+.img-fluid{
+    box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
+}
+
+.img-up {
+    top: 12vh;
+    bottom: 47%;
+    left: 14%;
+    position: absolute;
+    padding: 0;
+}
+
+
+.img-down {
+    top: 50px;
+    left: 38%;
+    right: 0px;
+    /* bottom: 20px; */
+    position: absolute;
+    padding: 0;
+}
+
+
+.img-down2{ 
+    top: 21vh;
+    left: 65%;
+    position: absolute;
+    padding: 0;
+ }
+
+ .col-content .col:hover img{
+    transform:scale(1.1) ;
+    transition: all 0.3s ease-out;
+    opacity: 0.4;
+    border: 2px solid rgb(213, 235, 218) ;
+   
+ }
+
+ .col-text{
+    position: absolute;
+    left: 14vh;
+    bottom: 30vh;
+    text-align: center;
+    opacity: 0;
+ }
+
+ .col-text2{
+    position: absolute;
+    left: 14vh;
+    bottom: 18vh;
+    text-align: center;
+    opacity: 0;
+ }
+ .col:hover .col-text{
+
+    opacity: 1;
+ }
+ .col:hover .col-text2{
+
+    opacity: 1;
+ }
+
+
+ 
+
+ .blur:hover img{
+    --webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+    border: 2px solid rgb(16, 18, 17) ;
+ }
+ 
+ .nowrap{
+    display: flex;
+    /* -ms-flex-wrap: wrap;
+    flex-wrap: wrap; */
+    margin-right: -15px;
+    margin-left: -15px;
+ }
+
+
+
+/* 
+ mobile css ##################################*/
+
+
+ @media only screen and (max-width: 320px) {
+
+    section{
+        margin: 0;
+    }
+    .newsletterform h3 {
+        font-size: 25px;
+        padding-bottom: 3vh;
+    }
+    .col-content{
+        padding: 0;
+    }
+    .col-content2 h2,h6{
+        font-size: 10px;
+
+    }
+    .banner{
+        padding: 0;
+    }
+    .col{
+        padding: 10%;
+    }
+    .carousel{
+        margin: 0;
+    }
+
+ }
