@@ -19,6 +19,7 @@ body
 section{
     margin: 2em ;
     
+    
 }
 .navbar
 {
@@ -70,7 +71,7 @@ font-size: 20px;
 
 
 .col-03
-{
+{   
     max-width: 100%;
     max-height: fit-content;
     background: #387c4b;
@@ -80,10 +81,10 @@ font-size: 20px;
 }
 
 .col-04{
-    max-width: 100%;
+    width: auto;
     max-height: fit-content;
     background: #387c4b;
-    margin-top: 5vh;
+    /* margin-top: 5vh; */
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
 }
 .col-05
@@ -97,10 +98,11 @@ font-size: 20px;
 .col-content
 {
     color: white;
-    padding: 4vh ;
+    padding: 4% ;
     height: fit-content;
-    width: 100%;
-    display: flex;
+    max-width: 100%;
+    width: auto;
+    
     justify-content: space-between;
 }
 .col-content2
@@ -108,7 +110,7 @@ font-size: 20px;
     color: black;
     
     margin: 1em  0em 25em 0em ;
-    display: flex;
+    
     justify-content: space-between;
 }
 .col-content h5
@@ -375,28 +377,48 @@ select.form {
 
  @media only screen and (max-width: 320px) {
 
+    body {
+        overflow-x: hidden;
+    }
     section{
-        margin: 0;
+        margin: 4%;
+        padding: 4%;
     }
     .newsletterform h3 {
         font-size: 25px;
         padding-bottom: 3vh;
     }
     .col-content{
-        padding: 0;
+        
+        margin: 1%;
+        padding: 6%;
+        width: auto;
     }
     .col-content2 h2,h6{
         font-size: 10px;
 
     }
-    .banner{
-        padding: 0;
+    .col-content h2, h5{
+        font-size: 20px;
+        text-align: center;
+
+    }
+    .col-04{
+        margin: 0;
+        padding: 4%;
+    }
+    .col-06{
+        margin: 0;
+        padding: 6%;
+    }
+    /* .banner{
+        padding: 2%;
     }
     .col{
         padding: 10%;
     }
     .carousel{
-        margin: 0;
-    }
+        margin: 6%;
+    } */
 
  }
