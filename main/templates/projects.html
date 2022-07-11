@@ -275,6 +275,9 @@
             stickyEl2.style.position = 'fixed';
             stickyEl2.style.top = '15%';
             stickyEl2.style.left = '60.5%';
+        if (screen.width <= 320 || screen.width <= 540 ){
+                  stickyEl2.style.left = '0';
+                  stickyEl2.style.position = 'static';
             
         } else {
             stickyEl.style.position = 'static';
