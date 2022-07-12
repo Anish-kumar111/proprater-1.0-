@@ -24,7 +24,7 @@
       <div id="owl-banner" class="owl-carousel owl-theme">
         <div class="row">
           
-            <div class="col col-sm-6">
+            <div class="col-sm">
               
               
                 <img class="img-fluid" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" srcset="">
@@ -35,18 +35,18 @@
 
            
             
-            <div class="col col-sm-6">
-               <div><h1 class="text-uppercase font-weight-bold">Godrej Retreat</h1></div>
-               <div>  <h3>Sector 89, Faridabad</h3></div>
+            <div class="col-sm banner-text">
+               <div class="banner"><h1 class="text-uppercase font-weight-bold">Godrej Retreat</h1></div>
+               <div class="banner">  <h3>Sector 89, Faridabad</h3></div>
                 <hr>
-               <div> <h2 class="font-weight-bold">&#8377 56.00 Lac to 91.96 Lac</h2></div>
-               <div class="d-flex">   <h2>Size</h2><h2 class="font-weight-bold b-value">: Plot from 981sq.Ft. to 1611.sq.Ft.(Saleable)</h2></div>
-               <div class="d-flex">   <h2>Total Units</h2> <h2 class="font-weight-bold b-value">: 790 units</h2></div>
-               <div class="d-flex">   <h2>Status</h2><h2 class="font-weight-bold b-value">: New Launch</h2></div>
+               <div class="banner"> <h2 class="font-weight-bold">&#8377 56.00 Lac to 91.96 Lac</h2></div>
+               <div class="d-flex banner">   <h2>Size</h2><h2 class="font-weight-bold b-value">: Plot from 981sq.Ft. to 1611.sq.Ft.(Saleable)</h2></div>
+               <div class="d-flex banner">   <h2>Total Units</h2> <h2 class="font-weight-bold b-value">: 790 units</h2></div>
+               <div class="d-flex banner">   <h2>Status</h2><h2 class="font-weight-bold b-value">: New Launch</h2></div>
                <hr>
-               <div class="d-flex rating">   <h2 class="font-weight-bold ">Rating</h2><div class="star-rating"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></div></div>
-               <div>   <h2>For Best Deal:</h2>
-              <li class="floor-btn mb-5"><button type="submit" class="btn btn-primary text-uppercase" ><i class="fa fa-headphones px-1" aria-hidden="true"></i>Get A call back</button></li></div>
+               <div class="d-flex rating  banner">   <h2 class="font-weight-bold ">Rating</h2><div class="star-rating"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></div></div>
+               <div class="banner">   <h2>For Best Deal:</h2>
+              <li class="floor-btn "><button id="banner-btn" type="submit" class="btn btn-primary text-uppercase" ><i class="fa fa-headphones px-1" aria-hidden="true"></i>Get A call back</button></li></div>
              
             </div>
         </div>
@@ -177,9 +177,9 @@
 
 <section id="overview">
     <div style="" class="container-clearfix">
-        <div class="row justify-content-between">
+        <div class="row justify-content-between ">
             
-        <div class="jumbotron jumbotron-card">
+        <div class="jumbotron jumbotron-card col-sm">
             <div class="row">
                 
                 <h2>Retreat Overview</h2>
@@ -210,7 +210,7 @@
             </div>
         </div>
         </div>
-        <div class=" contact-form ">
+        <div class=" contact-form col-sm">
                 
      
             <div class="">
@@ -278,6 +278,8 @@
         if (screen.width <= 320 || screen.width <= 540 ){
                   stickyEl2.style.left = '0';
                   stickyEl2.style.position = 'static';
+                  stickyEl.style.left = '0';
+                  stickyEl.style.position = 'static';}
             
         } else {
             stickyEl.style.position = 'static';
@@ -289,8 +291,8 @@
 
 
 </section>
-<section id="price&plan">
-<div class="overview2">
+<!-- <section id="price-plan">
+<div class="floorplan">
     <div class="row">
         
             <div class="jumbotron jumbotron-card">
@@ -298,16 +300,15 @@
                   <h2>Godrej Retreat Price & Floor plan</h2>
                   <div id="owl-floorplan" class="owl-carousel owl-theme">
                    
-                    <div><h4>110.00 sq.yd </h4></div>
-                    <div><h4>110.00 sq.yd </h4></div>
-                    <div><h4>110.00 sq.yd </h4></div>
-                    <div><h4>110.00 sq.yd </h4></div>
-                    <div><h4>110.00 sq.yd </h4></div>
-                    <div><h4>110.00 sq.yd </h4></div>
-                    <div><h4>110.00 sq.yd </h4></div>
-                    <div><h4>110.00 sq.yd </h4></div>
-                    <div><h4>110.00 sq.yd </h4></div>
-                    <div><h4>110.00 sq.yd </h4></div>
+                    <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
+                    <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
+                    <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
+                    <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
+                    <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
+                    <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
+                    <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
+                    <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
+                    
                   </div>
                 </div>
 
@@ -356,24 +357,24 @@
 
 
             <div class="row">
-                    <div class="col">
+                    <div class="col-sm">
                      <h3>Residental plot</h3>
                      <h3><span>Plot Area</span>: 110.00 sq.yd</h3>
                         
                     </div>
-                    <div class="col text-right">
+                    <div class="col-sm floorprice">
                        
                        <h3>&#8377 60.5L</h3> 
                     
                 </div>
             </div>
-            <div class="floorplan-img img-fluid"><img src="{% static 'img/floorplan.png'%}" alt="" srcset=""></div>
+            <div class="floorplan-img "><img class="img-fluid" src="{% static 'img/floorplan.png'%}" alt="" srcset=""></div>
             <div class="row">
-                    <div class="col">
+                    <div class="col-sm">
                      
                         <li class="floor-btn"><button type="submit" class="btn btn-primary text-uppercase" >see more videos</button></li>
                     </div>
-                    <div class="col">
+                    <div class="col-sm">
                        
                         
                     
@@ -384,7 +385,7 @@
     </div>
 </div>
 
-</section>
+</section> -->
 
 <section id="projectvideo">
 <div class="col text-uppercase text-center advertisement"><h1>advertisement</h1></div>
@@ -399,7 +400,7 @@
                     <h2>PROJECT VIDEO</h2>
                 </div>
                
-            <div class="floorplan-img img-fluid"><img src="{% static 'img/floorplan.png'%}" alt="" srcset=""></div>
+            <div class="floorplan-img "><img class="img-fluid" src="{% static 'img/floorplan.png'%}" alt="" srcset=""></div>
             <div class="row">
                     <div class="col">
                      
@@ -424,7 +425,7 @@
    
     <div class="overview2">
         
-        <div class="row">
+        <div class="map">
             
                 <div class="jumbotron jumbotron-card">
                     
@@ -486,6 +487,7 @@
 
 
 </section>
+
 <section style="margin: 2.1em;" id="similar-props">
     <div class="col text-uppercase text-center advertisement"><h1>advertisement</h1></div>
     <div class="overview2">
