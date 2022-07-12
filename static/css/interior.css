@@ -362,7 +362,7 @@ select.form {
 
  .col-content .col:hover img{
     transform:scale(1.1) ;
-    transition: all 0.3s ease-out;
+    transition: all 0.8s ease-out;
     opacity: 0.4;
     border: 2px solid rgb(213, 235, 218) ;
    

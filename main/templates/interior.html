@@ -197,8 +197,10 @@
 
             // var stickyEl = document.querySelector('.')
             var stickyEl2 = document.querySelector('.col-06')
+            var stickyEl22 = document.querySelector('.col-06')
             // var stickyPosition = stickyEl.getBoundingClientRect().top;
             var stickyPosition2 = stickyEl2.getBoundingClientRect().top;
+            var stickyPosition22 = stickyEl22.getBoundingClientRect().bottom;
             var offset = -20
             window.addEventListener('scroll', () => {
                 // if (window.pageYOffset >= stickyPosition + offset) {
@@ -212,11 +214,17 @@
                     stickyEl2.style.top = '0';
                     stickyEl2.style.left = '72.5%';
                     stickyEl2.style.zIndex = '100';
+               
                 if (screen.width <= 320 || screen.width <= 540 || screen.width <= 960 ){
                   stickyEl2.style.left = '0';
                   stickyEl2.style.position = 'static';
                   stickyEl2.style.width = '100%'
-                }    
+                } 
+                // if ( window.pageYOffset >= stickyPosition22 + offset) {
+                //     stickyEl22.style.position = 'static ';
+                //     // stickyEl2.style.bottom = '300%';
+                //     stickyEl22.style.left = '72.5%';
+                //     stickyEl22.style.zIndex = '100';}   
                     
                 } else {
                     // stickyEl.style.position = 'static';
