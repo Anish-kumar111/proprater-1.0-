@@ -102,7 +102,7 @@ font-size: 20px;
 }
 
 .col-04{
-    width: auto;
+    width: 70%;
     max-height: fit-content;
     background: #285f38;
     margin-top: 1em;
@@ -111,6 +111,22 @@ font-size: 20px;
 .row{
     margin-left: 0;
     margin-right: 0;
+}
+
+/* .col-sm-6 {
+    padding-left: 5%;
+    padding-right: 0;
+} */
+
+div.col-white{
+    background-color: white;
+    padding: 0;
+    margin: 0 2% 0;
+    height: fit-content;
+}
+
+div.col-white img{
+    padding: 30% 30% 30% 12%;
 }
 .col-05
 {   width: 66.3%;
@@ -147,7 +163,7 @@ text-align: right;
 }
 .col-content p
 {
-    margin: .5em;
+    margin: 4%;
     padding: .5em;
 
 text-align: left;
@@ -160,7 +176,7 @@ text-align: left;
     /* height: 30px;
     width: 60px;
     font-size: 5px; */
-    margin: 20px 0 30px;
+    margin: 6% 0 3%;
 }
 .col-06
 {   
@@ -302,6 +318,12 @@ select.form {
 
 .btn-success{
     background-color: #285f38;
+    /* animation:up-down 2s ease-in-out infinite normal both; */
+}
+
+.btn-success:hover{
+    
+   
 }
 
 .foot-title{
@@ -327,12 +349,15 @@ select.form {
 .banner-text h1{
     font-size: 70px;
     font-weight: 700;
+    /* animation: alternate-reverse; */
 }
 .banner-text h5{
     font-size: 35px;
-    font-weight: 300;
+    font-weight: 400;
     color: #a5a5a5;
 }
+
+/* animation: up 2s ease-in-out; */
 
 .img-up {
     top: -10%;
@@ -359,18 +384,34 @@ select.form {
     position: absolute;
     padding: 0;
  }
+ .hover-up:hover{
+    position: relative;
+    animation: myfirst 1s ease-in-out alternate;
+    animation-direction: alternate-reverse;
+    animation-delay: 0s;
+ }
+    @keyframes myfirst {
+       0% {left: 0px; bottom: 0px;}
+        100%  {left: 0px; bottom: 50px;}
+        
+      }
+    /* animation:up-down 2s ease-in-out infinite normal both; */
+
+
+
 
  .col-content .col:hover img{
-    transform:scale(1.1) ;
-    transition: all 0.8s ease-out;
+    transform:scale(1.05) ;
+    transition: all 1s ease-out;
     opacity: 0.4;
-    border: 2px solid rgb(213, 235, 218) ;
+    border: 2px solid rgb(213, 235, 218)
+     ;
    
  }
 
  .col-text{
     position: absolute;
-    left: 14vh;
+    left: 25vh;
     bottom: 30vh;
     text-align: center;
     opacity: 0;
@@ -378,7 +419,7 @@ select.form {
 
  .col-text2{
     position: absolute;
-    left: 14vh;
+    left: 25vh;
     bottom: 18vh;
     text-align: center;
     opacity: 0;

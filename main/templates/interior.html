@@ -12,6 +12,11 @@
 <!-- fontawesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 <link rel="stylesheet" href="">
+
+<!-- aos -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
 <!-- owl carousel -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
@@ -85,16 +90,16 @@
                 <br>AFFORDABLE.
                         </h1>
                             <h5>
-                    Your home interior story from concept to completion.
+                    Your home interior story from <br>concept to completion.
                   </h5>
-                  <button type="button" class="btn btn-success">LEARN MORE</button></div>
+                  <button type="button" class="btn btn-success ">LEARN MORE</button></div>
                   <div class="col-md col-sm banner-img">
                   <div class="row">
-                  <div class="col-sm img-down"><img style="border-radius: 20px; box-shadow: 5px 10px 29px 0 rgb(68 88 144 / 20%);"class="img" width="300" height="300"  src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
+                  <div class="col-sm img-down"><img style="border-radius: 20px; box-shadow: 5px 10px 29px 0 rgb(68 88 144 / 20%);"class="img hover-up" width="300" height="300"  src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
                   </div>
-                  <div class="col-sm img-up"><img  style="border-radius: 20px; box-shadow: 5px 10px 29px 0 rgb(68 88 144 / 20%);" class="img" width="300" height="300" src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
+                  <div class="col-sm img-up"><img  style="border-radius: 20px; box-shadow: 5px 10px 29px 0 rgb(68 88 144 / 20%);" class="img hover-up" width="300" height="300" src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
                   </div>
-                  <div class="col-sm img-down2"> <img style="border-radius: 20px; box-shadow: 5px 10px 29px 0 rgb(68 88 144 / 20%);" class="img" width="200" height="200"  src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
+                  <div class="col-sm img-down2"> <img style="border-radius: 20px; box-shadow: 5px 10px 29px 0 rgb(68 88 144 / 20%);" class="img hover-up" width="200" height="200"  src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
                   </div> 
                   </div>
                   </div>
@@ -134,14 +139,14 @@
             <div class="row col-content">
               
               <div class="col col-sm-6 ">
-                <img class="img-fluid"  src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
+                <img class="w-100 h-70 img-fluid"  src="{% static 'img/interior/Interior_Modular_Image11.jpg' %}" alt="" srcset="">
                 <h3 class="col-text">WARDROBE</h3>
               
             <p> For Amazing Discount/offers on <br>
-            Home Interiors & Furnitures</p></div>
+            Home Interiors & Furnitures</p>
+                </div>
             <div class="col col-sm-6 ">
-              <img class="img-fluid"  src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
-              <h3 class="col-text">WARDROBE</h3>
+              <img class="w-100 h-70 img-fluid"  src="{% static 'img/interior/Interior_Modular_Image21.jpg' %}" alt="" srcset="">              <h3 class="col-text">WARDROBE</h3>
               <div class="booking-btn" > <button type="button" class="btn btn-light">BOOK CONSULATATION</button>
               </div>
             </div>
@@ -157,8 +162,7 @@
               
             </div>
             <div class="col my-4 ">
-              <img class="img" height="100" width="100"  src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
-     
+              <img class="w-100 img-responsive" src="{% static 'img/interior/Get a call back_Icon.png'%}" alt="" srcset="">     
             </div>
               <form>
     
@@ -252,12 +256,12 @@
        
               <div class="col col-sm-6 ">
                 
-                <img class="img-fluid"  src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
+                <img class="w-100 h-70 img-fluid"  src="{% static 'img/interior/Interior_Full home_Image1.jpg'%}">
                 <h3 class="col-text2">WARDROBE</h3>
               
             </div>
             <div class="col col-sm-6 ">
-              <img class="img-fluid"  src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
+              <img class="w-100 h-55 img-fluid"  src="{% static 'img/interior/Interior_Full home_Image21.jpg'%}">
               <h3 class="col-text2">WARDROBE</h3>
             </div>
            
@@ -296,28 +300,28 @@
               </div>
               <div class="row col-content">
        
-                <div class="col-sm">
+                <div class="col-sm col-white">
                   
-                  <img class="img-fluid"  src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
+                  <img class=" img-responsive" src="{% static 'img/interior/Interior_Customized services_Icon1.png' %}" alt="" srcset="">
         
                 
               </div>
-              <div class=" col-sm">
-                <img class="img-fluid"  src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
+              <div class=" col-sm col-white">
+                <img class=" img-responsive" src="{% static 'img/interior/Interior_Customized services_Icon2.png' %}" alt="" srcset="">
        
               </div>
-              <div class=" col-sm">
+              <div class=" col-sm col-white">
                   
-                <img class="img-fluid"  src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
+                <img class=" img-responsive" src="{% static 'img/interior/Interior_Customized services_Icon3.png' %}" alt="" srcset="">
       
               
             </div>
-            <div class=" col-sm">
-              <img class="img-fluid"  src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
+            <div class=" col-sm col-white">
+              <img class=" img-responsive" src="{% static 'img/interior/Interior_Customized services_Icon4.png' %}" alt="" srcset="">
      
             </div>
-            <div class=" col-sm">
-              <img class="img-fluid"  src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
+            <div class=" col-sm col-white">
+              <img class=" img-responsive" src="{% static 'img/interior/Interior_Customized services_Icon5.png' %}" alt="" srcset="">
      
             </div>
            
