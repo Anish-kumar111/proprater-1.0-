@@ -75,7 +75,7 @@ font-size: 20px;
 {   
     max-width: 100%;
     max-height: fit-content;
-    background: #387c4b;
+    background: #285f38;
     margin-top: 5vh;
     margin: 5vh .2em 0 0;
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
@@ -84,15 +84,15 @@ font-size: 20px;
 .col-04{
     width: auto;
     max-height: fit-content;
-    background: #387c4b;
+    background: #285f38;
     margin-top: 1em;
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
 }
 .col-05
-{
+{   width: 63.6%;
     max-width: 100%;
     max-height: fit-content;
-    background: #387c4b;
+    background: #285f38;
     margin-top: 5vh;
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
 }
@@ -147,7 +147,7 @@ text-align: left;
     justify-content: space-between;
     justify-items: center;
     background-color: #e6f1e9;
-    margin: 2%;
+    margin: 1%;
     
 text-align: center;
 padding: 4% 4% 4% 4% ;
@@ -197,7 +197,7 @@ select.form {
   }
 
 .btn-form{
-    background-color: #387c4b;
+    background-color: #285f38;
     border: black;
     color: white;
 }
@@ -221,7 +221,7 @@ select.form {
 
 .newsletter{
     /* margin-top: 5vh; */
-    background-color: #387c4b;
+    background-color: #285f38;
     color: white;
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
     
@@ -276,7 +276,7 @@ select.form {
 }
 
 .btn-success{
-    background-color: #387c4b;
+    background-color: #285f38;
 }
 
 .foot-title{
@@ -419,7 +419,7 @@ select.form {
  }
 
 
- @media only screen and (max-width: 320px) {
+ @media only screen and (max-width: 360px) {
 
     /* body {
         width: 100%;
