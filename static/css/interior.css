@@ -60,7 +60,7 @@ a.navbar-brand img{
 .btn
 {
     font-size: 2vh;
-   margin-left: 2vh; 
+   /* margin-left: 2vh;  */
     border-radius: 5vh;
 }
 .btn-danger{
@@ -105,7 +105,7 @@ font-size: 20px;
     width: 70%;
     max-height: fit-content;
     background: #285f38;
-    margin-top: 1em;
+    margin: 1em 0 2em;
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
 }
 .row{
@@ -139,7 +139,55 @@ div.col-white img{
 .col-content
 {
     color: white;
-    padding: 4% ;
+    padding: 2% 2% 1% 4.5%;
+    height: fit-content;
+    max-width: 100%;
+    width: auto;
+   
+    
+    justify-content: space-between;
+}
+
+.col-content-int
+{
+    color: white;
+    padding: 1.5%  3.5% 3.5% ;
+    height: fit-content;
+    max-width: 100%;
+    width: auto;
+   
+    
+    justify-content: space-between;
+}
+
+.blur:hover {
+    --webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+    border: 2px solid rgb(16, 18, 17) ;
+ }
+ 
+
+.col-content .col-sm-6{
+    padding: 2% 4% 2% 0;
+}
+
+
+.col-content-text
+{
+    color: white;
+    padding: 2.5% 4% 0%;
+    height: fit-content;
+    max-width: 100%;
+    width: auto;
+   
+    
+    justify-content: space-between;
+}
+
+.col-content-text2
+{
+    color: white;
+    padding: 0% 4% 2%;
     height: fit-content;
     max-width: 100%;
     width: auto;
@@ -155,21 +203,38 @@ div.col-white img{
     
     justify-content: space-between;
 }
-.col-content h5
-{
-    
 
+.col-content-text h2{
+    font-weight: 600;
+    font-size: 3vw;
+    text-align: left;
+}
+.col-content-text div h3{
+    font-size: 2.5vw;
+    font-weight: 600;
+    text-align: right;
+}
+.col-content-text div h5
+{
+font-weight: 600;  
+font-size: 1.5vw;
 text-align: right;
 }
-.col-content p
+.col-content-text2 p
 {
-    margin: 4%;
+    margin: 0.5%;
     padding: .5em;
+    font-weight: 400;
+    font-size: x-large;
 
 text-align: left;
+float: left;
 }
 .booking-btn
+
 {   
+   float: right; 
+   padding: 0 1% 4%;
 }
 
 .booking-btn button{  
@@ -177,10 +242,15 @@ text-align: left;
     width: 60px;
     font-size: 5px; */
     margin: 6% 0 3%;
+    color: #285f38;
+    font-weight: 600;
+
 }
 .col-06
 {   
     /* position: relative; */
+    font-weight: 700;
+    font-size: large;
     margin: 0 .5em 0;
     max-width: 100%;
     width:25%;
@@ -191,7 +261,7 @@ text-align: left;
     margin: 1%;
     
 text-align: center;
-padding: 4% 4% 4% 4% ;
+padding: 2%  ;
 color: rgb(11, 126, 1);
 box-shadow: 7px  7px 7px 0 rgba(101, 104, 108, 0.2);
 border: 1px solid rgba(192, 192, 192, 0.595);
@@ -213,11 +283,30 @@ border: 1px solid rgba(192, 192, 192, 0.595);
     
 
 }
-.form-control{
-    border-radius: 1.25em;
-    font-size: 20px;
+.form-control2{
+    
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 1.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 
 }
+.phone input{
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    /* font-size: 20px; */
+
+}
+
 .searchrow .form-control2{
    
     border: 1px #ced4da solid;
@@ -226,9 +315,11 @@ border: 1px solid rgba(192, 192, 192, 0.595);
 
 select.form{
     border: 1px #ced4da solid;
-    border-radius:1.25em ;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
     color: #6c757d ;
-      ;
+    
+    font-size: 1rem;
 }
 
 select.form {
@@ -261,7 +352,7 @@ select.form {
 }
 
 .newsletter{
-    /* margin-top: 5vh; */
+    margin-top: 5vh;
     background-color: #285f38;
     color: white;
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
@@ -403,7 +494,7 @@ select.form {
  .col-content .col:hover img{
     transform:scale(1.05) ;
     transition: all 1s ease-out;
-    opacity: 0.4;
+    opacity: 0.24;
     border: 2px solid rgb(213, 235, 218)
      ;
    
@@ -450,7 +541,7 @@ select.form {
     margin-left: -15px;
  }
 
-
+ 
 
 /* 
  mobile css ##################################*/
