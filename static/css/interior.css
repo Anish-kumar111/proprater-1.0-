@@ -85,6 +85,7 @@ a.navbar-brand img{
 .banner
 {
     padding: 4%;
+    /* overflow-x: auto; */
 }
 
 /* .banner h1{
@@ -95,7 +96,9 @@ font-size: 80px;
 font-size: 20px;
 } */
 
-
+/* .banner-pics{
+    padding: 10%;
+} */
 
 .col-03
 {   
@@ -457,8 +460,8 @@ select.form {
 /* animation: up 2s ease-in-out; */
 
 .img-up {
-    top: -10%;
-    bottom: 47%;
+    top: 33%;
+    /* bottom: 47%; */
     left: 14%;
     position: absolute;
     padding: 0;
@@ -469,14 +472,14 @@ select.form {
     /* top: ; */
     left: 38%;
     right: 0px;
-    bottom: 5%;
+    bottom: 35%;
     position: absolute;
     padding: 0;
 }
 
 
 .img-down2{ 
-    top: 6%;
+    top: 54%;
     left: 65%;
     position: absolute;
     padding: 0;
@@ -565,10 +568,10 @@ select.form {
  }
 
 .foot-head{
-    font-size: 1.5em;
+    font-size: .5em;
 }
  a.text-reset{
-    font-size: 1.2em ;
+    font-size: .2em ;
  }
 
 /* 
