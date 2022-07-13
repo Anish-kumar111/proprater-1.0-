@@ -731,7 +731,9 @@ text-align: left;
 float: left;
 }
 
-
+.navbar-brand{
+    width: 50%;
+}
 
 }
 
