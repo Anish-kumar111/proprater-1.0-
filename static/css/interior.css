@@ -65,7 +65,7 @@ a.navbar-brand img{
 }
 .btn
 {
-    font-size: 2vh;
+    font-size: 1.8vh;
    /* margin-left: 2vh;  */
     border-radius: 5vh;
 }
@@ -84,7 +84,7 @@ a.navbar-brand img{
 }
 .banner
 {
-    padding: 4%;
+    padding: 0px;
     /* overflow-x: auto; */
 }
 
@@ -418,6 +418,7 @@ select.form {
 
 .btn-success{
     background-color: #285f38;
+    margin-top: 2%;
     /* animation:up-down 2s ease-in-out infinite normal both; */
 }
 
@@ -444,10 +445,10 @@ select.form {
 }
 
 .banner-text{
-    padding: 2%;
+    padding: 0.5%;
 }
 .banner-text h1{
-    font-size: 70px;
+    font-size: 7em;
     font-weight: 700;
     /* animation: alternate-reverse; */
 }
@@ -666,7 +667,7 @@ select.form {
         margin: 6%;
     } */
 .banner-img {
-    margin-bottom : 100%;
+    /* margin-bottom : 100%; */
 }
     
 .banner-text h1{
