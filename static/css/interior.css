@@ -208,7 +208,7 @@ div.col-white img{
 {   
     color: black;
     
-    margin: 1em  0em 25em 0em ;
+    /* margin: 1em  0em 25em 0em ; */
     
     justify-content: space-between;
 }
@@ -394,12 +394,12 @@ select.form {
     /* border-radius: 10px; */
 }
 .absolute {
-    position: absolute;
+    /* position: absolute; */
     /* bottom: -501%; */
-    top: 541%;
+    /* top: 541%;
     left: 15%;
     right: 15%;
-    margin: 0 0vh 0;
+    margin: 0 0vh 0; */
 }
 
 .p-5{
@@ -432,9 +432,11 @@ select.form {
 }
 
 .carousel{
-    margin: 1em 3em 10em;
+    /* margin: 1em 3em 10em; */
 }
-
+.testimonials{
+    padding: 3%;
+}
 .customised{
     margin-right: 10vh;
 
@@ -618,6 +620,11 @@ select.form {
      }
  }
 
+ @media only screen and (max-width: 494px){
+    .navbar-brand{
+        width: 50%;
+    }
+ }
 
  @media only screen and (max-width: 360px) {
 
