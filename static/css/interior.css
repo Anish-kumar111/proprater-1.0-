@@ -502,19 +502,36 @@ select.form {
 
  .col-text{
     position: absolute;
-    left: 25vh;
-    bottom: 30vh;
+    left: 15%;
+    bottom: 39%;
     text-align: center;
     opacity: 0;
+    
  }
-
+.col-text h2{
+    font-size: 3.5vw;
+    font-weight: 600;
+}
  .col-text2{
     position: absolute;
-    left: 25vh;
-    bottom: 18vh;
+    left: 22%;
+    bottom: 30%;
     text-align: center;
     opacity: 0;
+    
  }
+ .col-text2 h2{
+    font-size: 3.5vw;
+    font-weight: 600;
+
+ }
+ .col-text2 h5{
+    font-size: 2vw;
+    font-weight: 600;
+
+ }
+ 
+
  .col:hover .col-text{
 
     opacity: 1;
@@ -590,6 +607,9 @@ select.form {
 
         margin: 4%;
         padding: 4%;
+    }
+    .col-04{
+        width: 100%;
     }
     .newsletterform h3 {
         font-size: 25px;
