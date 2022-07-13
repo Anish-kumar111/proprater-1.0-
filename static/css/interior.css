@@ -84,7 +84,7 @@ a.navbar-brand img{
 }
 .banner
 {
-    padding: 0px;
+    margin-bottom:2% ;
     /* overflow-x: auto; */
 }
 
@@ -369,6 +369,8 @@ select.form {
 }
 .newsletterform{
     align-self: center;
+    margin: 1%;
+    padding: 2% 5%;
 }
 .newsletterform input{
 
@@ -431,11 +433,42 @@ select.form {
     color: #db7a35;
 }
 
-.carousel{
-    /* margin: 1em 3em 10em; */
+.icon-box .title a{
+    color: black;
+
 }
+
+.icon-box .location {
+    color: grey;
+
+}
+
+.icon-box .description {
+    color: black;
+
+}
+.test-head{
+    /* margin: 1em 3em 10em; */
+    padding: 2%  5%;
+    justify-content: space-between;
+
+}
+div.col.head1{
+    float: left;
+
+}
+.test-head div button{
+    float: right;
+    /* font-size: 1.3em; */
+
+}
+.head1 h2{
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+
 .testimonials{
-    padding: 3%;
+    padding: 1% 5% 5%;
 }
 .customised{
     margin-right: 10vh;
@@ -445,9 +478,17 @@ select.form {
 .img-fluid{
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
 }
+.img-banner{
+    padding: 5%;
+}
+.img-banner:hover{
+    transform:scale(1.05) ;
+    transition: all 1s  ease-out ;
+    /* opacity: 0.24; */
 
+}
 .banner-text{
-    padding: 0.5%;
+    padding: 4% 0.2%;
 }
 .banner-text h1{
     font-size: 7em;
@@ -618,6 +659,12 @@ select.form {
         position: absolute;
         padding: 0;
      }
+
+     .head1 h2{
+        font-size: 3.5vw;
+        font-weight: 700;
+    }
+    
  }
 
  @media only screen and (max-width: 494px){
@@ -643,7 +690,7 @@ select.form {
     }
     
     .newsletterform h3 {
-        font-size: 25px;
+        font-size: 5vw;
         padding-bottom: 3vh;
     }
     .col-content{
@@ -741,6 +788,11 @@ float: left;
 .navbar-brand{
     width: 50%;
 }
+.head1 h2{
+    font-size: 5.5vw;
+    font-weight: 700;
+}
 
 }
+
 
