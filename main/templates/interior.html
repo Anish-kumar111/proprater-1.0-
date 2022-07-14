@@ -117,7 +117,8 @@
 
 <section id="greens">
     <div class="container-clearfix greens-space">
-        <div class="row justify-content-between">
+      <div class="d-flex allgreen">
+        <div class="w-100">
           <div class="col-04 " data-aos="fade-up" data-aos-delay="">
             <div class="row col-content-text">
               <h2>  MODULAR <br>
@@ -163,47 +164,7 @@
             </div> 
           </div>
         </div>
-          <div class="col-06 col"  data-aos="zoom-in" data-aos-delay="">
-            
-            <div class="col06text">
-              Get a call Back From <br>
-              our Design Expert
-              
-            </div>
-            <div class="col my-4 ">
-              <img class="w-100 img-responsive" src="{% static 'img/interior/Get a call back_Icon.png'%}" alt="" srcset="">     
-            </div>
-              <form>
-    
-                <div class="mb-3">
-                  <!-- <label for="exampleInputName1" class="form-label">Name</label> -->
-                  <input type="text" placeholder="Name" class="form-control2" id="exampleInputName1">
-                </div>
-                <div class="mb-3">
-                  
-                  <input type="email"  placeholder="Email ID" class="form-control2" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  
-                </div>
-                <div class="mb-3 d-flex phone">
-                  
-                  <select  class="form" aria-label="Default select Code">
-                    <option selected>+91</option>
-                    <option value="1">+01</option>
-                    <option value="2">+02</option>
-                    <option value="3">+03</option>
-                  </select>
-                  <input type="tel"  class="form-control" id="phone" name="phone" placeholder="Phone Number" pattern="[0-9]{10}" required>          </div>
-                <div class="mb-3">
-            
-                  <select  class="form-control2 mr-auto" aria-label="Default select Area">
-                    <option selected>Select Property City</option>
-                    <option value="1">New Delhi</option>
-                    <option value="2">Agra</option>
-                    <option value="3">Noida</option>
-                  </select>            </div>
-                <button type="submit" class="btn btn-form" style="width: 100%;">BOOK CONSULTATION</button>
-              </form>
-          </div>
+          
          
           <script>
 
@@ -247,7 +208,7 @@
                 }
             });</script>
         
-         </div>
+         
          
         <div class="row">
           
@@ -364,7 +325,50 @@
               </div>
            
             </div> 
+          </div>
+          <div class="col-06 "  data-aos="zoom-in" data-aos-delay="">
+            
+            <div class="col06text">
+              Get a call Back From <br>
+              our Design Expert
+              
+            </div>
+            <div class="col my-4 ">
+              <img class="w-100 img-responsive" src="{% static 'img/interior/Get a call back_Icon.png'%}" alt="" srcset="">     
+            </div>
+              <form>
+    
+                <div class="mb-3">
+                  <!-- <label for="exampleInputName1" class="form-label">Name</label> -->
+                  <input type="text" placeholder="Name" class="form-control2" id="exampleInputName1">
+                </div>
+                <div class="mb-3">
+                  
+                  <input type="email"  placeholder="Email ID" class="form-control2" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  
+                </div>
+                <div class="mb-3 d-flex phone">
+                  
+                  <select  class="form" aria-label="Default select Code">
+                    <option selected>+91</option>
+                    <option value="1">+01</option>
+                    <option value="2">+02</option>
+                    <option value="3">+03</option>
+                  </select>
+                  <input type="tel"  class="form-control" id="phone" name="phone" placeholder="Phone Number" pattern="[0-9]{10}" required>          </div>
+                <div class="mb-3">
+            
+                  <select  class="form-control2 mr-auto" aria-label="Default select Area">
+                    <option selected>Select Property City</option>
+                    <option value="1">New Delhi</option>
+                    <option value="2">Agra</option>
+                    <option value="3">Noida</option>
+                  </select>            </div>
+                <button type="submit" class="btn btn-form" style="width: 100%;">BOOK CONSULTATION</button>
+              </form>
+          </div>
         </div>
+      </div>
 </section>   
 
 
@@ -543,7 +547,6 @@
         </div>
       </div>
 
-
 <!-- <section id="footer"> -->
 
     <footer class="footer text-lg-start   ">
@@ -552,13 +555,26 @@
           class="d-flex justify-content-center justify-content-lg-between p-5"
         >
           <!-- Left -->
-          <div class="me-5 d-none d-lg-block">
-            <span>Get connected with us on social networks:</span>
-          </div>
+          <h6 class="foot-head text-uppercase fw-bold mb-4">
+            TRUSTED BY
+          </h6>
+          <h6 class="foot-head  fw-bold mb-4 font-italic">
+            Signature Global
+          </h6><h6 class="foot-head   mb-4 font-italic">
+            DLF
+          </h6><h6 class="foot-head   mb-4 font-italic">
+            Godrej Properties
+          </h6><h6 class="foot-head   mb-4 font-italic">
+            M3M
+          </h6><h6 class="foot-head   mb-4 font-italic">
+            Signature Global
+          </h6><h6 class="foot-head   mb-4 font-italic">
+            DLF
+          </h6>
           <!-- Left -->
       
           <!-- Right -->
-          <div>
+          <!-- <div>
             <a href="" class="me-4 text-reset">
               <i class="fab fa-facebook-f"></i>
             </a>
@@ -577,7 +593,7 @@
             <a href="" class="me-4 text-reset">
               <i class="fab fa-github"></i>
             </a>
-          </div>
+          </div> -->
           <!-- Right -->
         </div>
         <!-- Section: Social media -->
