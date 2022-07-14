@@ -9,10 +9,10 @@
 body
 {
     margin: 0;
-    /* width: 100%;
-    height: 100%; */
+    width: 100%;
+    height: 100%;
     font-family: 'Poppins', sans-serif;
-    /* overflow-x: hidden ; */
+    overflow-x: hidden;
     
     
 
@@ -420,7 +420,7 @@ select.form {
     padding: 40px 50px;
     /* position: relative; */
     overflow: hidden;
-    background: rgb(226, 218, 218);
+    background: rgb(216, 216, 215);
     
     /* box-shadow: 5px 20px 29px 0 rgba(30, 30, 30, 0.2); */
     transition: all 0.3s ease-in-out;
@@ -476,6 +476,8 @@ select.form {
 
 .icon-box .description {
     color: black;
+    font-weight: 500;
+    font-size: 18px;
 
 }
 .test-head{
@@ -594,32 +596,37 @@ div.col.head1{
  }
 
  .col-text{
+    width: 100%;
     position: absolute;
-    left: 12%;
-    bottom: 39%;
-    text-align: center;
+    left: 19.0%;
+    /* top: 0; */
+    bottom: 35%;
+    
     opacity: 0;
     
  }
 .col-text h2{
-    font-size: 3.5vw;
+    font-size: 2vw;
     font-weight: 600;
 }
  .col-text2{
+    width: 100%;
     position: absolute;
-    left: 20%;
-    bottom: 30%;
-    text-align: center;
+    left: 25%;
+    /* top: 0; */
+    bottom: 23%;
+    
     opacity: 0;
     
  }
  .col-text2 h2{
-    font-size: 3.5vw;
+    font-size: 2vw;
     font-weight: 600;
+    
 
  }
  .col-text2 h5{
-    font-size: 2vw;
+    font-size: 1vw;
     font-weight: 600;
 
  }
