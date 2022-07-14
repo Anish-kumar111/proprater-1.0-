@@ -117,6 +117,9 @@ font-size: 20px;
     margin: 1em 0 2em;
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
 }
+.greens-space{
+    margin: 4% 4%;
+}
 .row{
     margin-left: 0;
     margin-right: 0;
@@ -578,7 +581,7 @@ div.col.head1{
 
  .col-text{
     position: absolute;
-    left: 15%;
+    left: 12%;
     bottom: 39%;
     text-align: center;
     opacity: 0;
@@ -590,7 +593,7 @@ div.col.head1{
 }
  .col-text2{
     position: absolute;
-    left: 22%;
+    left: 20%;
     bottom: 30%;
     text-align: center;
     opacity: 0;
