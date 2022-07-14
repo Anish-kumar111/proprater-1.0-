@@ -45,13 +45,13 @@ section{
   
 }
 
-.navbar-brand{
+.navbar-brand {
     padding-left: 0.3em;
-    padding-bottom: 0.8em;
+    padding-bottom: 0.1em;
 }
 
 a.navbar-brand img{
-    width: 75%;
+    width: 55%;
 }
 
 .navbar .nav-item {
@@ -247,7 +247,7 @@ text-align: right;
     margin: 0.5%;
     padding: .5em;
     font-weight: 400;
-    font-size: x-large;
+    font-size: 1.5vw;
 
 text-align: left;
 float: left;
@@ -658,7 +658,7 @@ div.col.head1{
     
     
     a.navbar-brand img{
-        width: 100%;
+        width: 50%;
     }
     .col-04{
         width: 100%;
@@ -715,8 +715,8 @@ div.col.head1{
 }
 
  @media only screen and (max-width: 494px){
-    .navbar-brand{
-        width: 50%;
+    .navbar-brand {
+        width: 60%;
     }
  }
 
@@ -729,6 +729,11 @@ div.col.head1{
         height: 100%;
         overflow-x: hidden;
     } */
+
+    a.navbar-brand img{
+        width: 70%;
+    }
+
     .img-banner{
         display: none;
     }
@@ -828,7 +833,7 @@ text-align: right;
     margin: 0.5%;
     padding: .5em;
     font-weight: 400;
-    font-size: 3.5vw;
+    font-size: 3vw;
 
 text-align: left;
 float: left;
