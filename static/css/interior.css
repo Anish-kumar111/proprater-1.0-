@@ -84,8 +84,8 @@ a.navbar-brand img{
     border-color: #285f38;
 }
 .banner
-{
-    margin-bottom:2% ;
+{   margin: 0 4% 2%;
+    /* margin-bottom:2% ; */
     /* overflow-x: auto; */
 }
 
@@ -111,14 +111,14 @@ font-size: 20px;
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
 }
 .allgreen{
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .col-04{
     /* position: relative;
     flex: 1 0 auto;
     display: flex; */
-    width: 100%;
+    width: 100%;  
     max-height: fit-content;
     background: #285f38;
     margin: 1em 0 2em;
@@ -519,7 +519,7 @@ div.col.head1{
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
 }
 .img-banner{
-    padding: 5%;
+    padding: 5% 0 5% 5%;
 }
 .img-banner:hover{
     transform:scale(1.05) ;
