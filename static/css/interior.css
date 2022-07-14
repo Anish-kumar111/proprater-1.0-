@@ -383,7 +383,7 @@ select.form {
 .newsletterform{
     align-self: center;
     margin: 1%;
-    padding: 2% 5%;
+    padding: 2% 0% 2% 2%;
 }
 .newsletterform input{
 
