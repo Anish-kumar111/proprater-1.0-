@@ -490,13 +490,13 @@ div.col.head1{
 .banner-text{
     padding: 4% 0.2%;
 }
-.banner-text h1{
-    font-size: 7em;
+.banner-text h2{
+    font-size: 6vw;
     font-weight: 700;
     /* animation: alternate-reverse; */
 }
 .banner-text h5{
-    font-size: 35px;
+    font-size: 2vw;
     font-weight: 400;
     color: #a5a5a5;
 }
@@ -724,11 +724,11 @@ div.col.head1{
     /* margin-bottom : 100%; */
 }
     
-.banner-text h1{
-    font-size: 30px;
+.banner-text h2{
+    font-size: 7vw;
 }
 .banner-text h5{
-    font-size: 18px;
+    font-size: 5vw;
 }
 
 .img-up {
