@@ -133,10 +133,7 @@ font-size: 20px;
     margin-right: 0;
 }
 
-/* .col-sm-6 {
-    padding-left: 5%;
-    padding-right: 0;
-} */
+
 
 div.col-white{
     background-color: white;
@@ -692,7 +689,11 @@ div.col.head1{
  @media only screen and (max-width: 960px) {
     
     
-    
+    .banner
+{   margin: 0 0% 2%;
+    /* margin-bottom:2% ; */
+    /* overflow-x: auto; */
+}
     a.navbar-brand img{
         width: 50%;
     }
@@ -742,12 +743,24 @@ div.col.head1{
         display: none;
     }
     .banner-text h2{
-        font-size: 11.5vw;
+        font-size: 12.5vw;
     }
     .banner-text h5{
         font-size: 5vw;
         
     }
+    .col-content .col-sm-6{
+        padding: 5% 2%;
+    }
+    .col-content-text2 p {
+        margin: 0.5%;
+        padding: 0.5em;
+        font-weight: 400;
+        font-size: 2.1vw;
+        text-align: left;
+        float: left;
+    }
+    
 }
 
  @media only screen and (max-width: 494px){
