@@ -33,7 +33,7 @@ section{
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
     /* flex-wrap: nowrap; */
     /* justify-content: space-between; */
-    padding: 0.5rem 12% 1% 12%;
+    padding: 0.5rem 1.2% 1% 10%;
   
    
     
@@ -537,7 +537,7 @@ div.col.head1{
 
 }
 .banner-text{
-    padding:1% 4% 0.2% 4%;
+    padding:1% 4% 0.2% 1%;
 }
 .banner-text h2{
     font-size: 6vw;
