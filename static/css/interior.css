@@ -6,13 +6,15 @@
     margin: 0;
 
 }
+
 body
-{   padding: 0;
+{ 
+      padding: 0;
     margin: 0;
     width: 100%;
     height: 100%;
     font-family: 'Poppins', sans-serif;
-    /* overflow-x: hidden; */
+    /* overflow-x: hidden;  */
     
     
 
@@ -31,7 +33,9 @@ section{
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
     /* flex-wrap: nowrap; */
     /* justify-content: space-between; */
-    padding: 0.5rem 10%;
+    padding: 0.5rem 2% 1% 6%;
+  
+   
     
 }
 .navbar li a
@@ -85,7 +89,7 @@ a.navbar-brand img{
     border-color: #285f38;
 }
 .banner
-{   margin: 0 8% 2%;
+{   margin: 0 0% 2%;
     /* margin-bottom:2% ; */
     /* overflow-x: auto; */
 }
@@ -532,7 +536,7 @@ div.col.head1{
 
 }
 .banner-text{
-    padding: 4% 0.2%;
+    padding:1% 4% 0.2% 4%;
 }
 .banner-text h2{
     font-size: 6vw;
@@ -680,10 +684,17 @@ div.col.head1{
 
 /* 
  mobile css ##################################*/
- @media only screen and (max-width: 1024x) {
-*{
-    /* overflow: hidden; */
+ @media only screen and (max-width: 1000px) {
+* {
+    overflow-x: hidden;
 }
+h1{padding: 1%;}
+h2{padding: 2%;}
+h3{padding: 1%;}
+h4{padding: 1%;}
+h5{padding: 1%;}
+h6{padding: 1%;}
+p{padding: 1%;}
  }
 
  @media only screen and (max-width: 960px) {
@@ -743,7 +754,7 @@ div.col.head1{
         display: none;
     }
     .banner-text h2{
-        font-size: 12.5vw;
+        font-size: 11vw;
     }
     .banner-text h5{
         font-size: 5vw;
@@ -772,7 +783,9 @@ div.col.head1{
 
 
  @media only screen and (max-width: 360px) {
-
+    * {
+        overflow-x: hidden;
+    }
     /* body {
         width: 100%;
         height: 100%;
@@ -790,7 +803,7 @@ div.col.head1{
     section{
 
         margin: 4%;
-        padding: 4%;
+        padding: 1%;
     }
     .col-04{
         width: fit-content;
@@ -875,7 +888,7 @@ div.col.head1{
 .col-content-text div h5
 {
 font-weight: 600;  
-font-size: 4vw;
+font-size: 2.8vw;
 text-align: right;
 }
 .col-content-text2 p
