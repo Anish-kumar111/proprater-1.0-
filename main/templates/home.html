@@ -1,4 +1,5 @@
-
+{% extends "base.html" %}
+{% block content %}
 {% load static %}
 <!doctype html>
 <html lang="en">
@@ -6,6 +7,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PROPRATER HOME</title>
+       <!-- fonts  -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800;900&display=swap" rel="stylesheet">
  <!-- fontawesome -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"> -->
@@ -32,12 +37,13 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
 <header id="nav">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">PROPRATER HOME</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand w-40" href="#" data-aos="fade-right" data-aos-delay=""><img class="img-responsive" src="{% static 'img/logo/Proprater Logo.png'%}" alt="" srcset=""></a>
+
+        <button class="navbar-toggler" data-aos="fade-left" data-aos-delay="" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" data-aos="fade-left" data-aos-delay="">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item ">
               <a class="nav-link" href="{% url 'main:projects' %}">projects </a>
@@ -65,8 +71,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">contact us</a>
               </li>
-              <button type="button" class="btn btn-dark">POST YOUR PROPERTY</button>
-
+              <li>
+              <button type="button" class="btn btn-nav mt-2">POST YOUR PROPERTY</button>
+            </li>
           </ul>
           <!-- <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -78,11 +85,11 @@
     </header>
 
 
-<section id="banner">
+<section id="banner"  data-aos="fade-up" data-aos-delay="">
   <div>
   <div class=""> 
-  <div id="owl-banner" class="owl-carousel owl-theme">
-    <div>
+  <div id="owl-banner" class="owl-carousel owl-theme"   >
+    <div >
         <img  src="https://images.unsplash.com/photo-1554995207-c18c203602cb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" class="img-banner">
         <div class="carousel-caption d-none d-md-block ">
           <h1>LET US GUIDE YOU HOME</h1>
@@ -196,7 +203,7 @@
      
         </script>   
     <form>
-    <div class="search-bar">
+    <div class="search-bar" data-aos="zoom-in-up" data-aos-delay="">
       <div class="option-bar">
       <div class="banner-col">       
         <div class="row">
@@ -259,7 +266,7 @@
       </div>
     </div>  
         <div class="row">
-          <div id="owl-featured" class="owl-carousel owl-theme">
+          <div id="owl-featured" class="owl-carousel owl-theme" data-aos="zoom-out-up" data-aos-delay="">
                 <div class="col-featured " ><h2></h2> 
                 <img src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" class="img-fluid featured-prop">
                 <div class="col-text-prop"><div class="row">
@@ -373,7 +380,7 @@
           </div>
         </div> 
         <div class="row">
-        <div id="owl-trend" class="owl-carousel owl-theme">
+        <div id="owl-trend" class="owl-carousel owl-theme"  data-aos="fade-up" data-aos-delay="">
         <div class="trendcol boxes col" data-aos="fade-up"><img  class="img-fluid" src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1147&q=80" alt="" srcset=""><div class="icon-box2"><div class="icon"><i class="bx bxl-dribbble"></i></div>
         <div class="title">M2k VICTORIA GARDEN</div>
         <div class="vendor">By <a href="">M2K INDIA</a> </div>
@@ -441,7 +448,7 @@
 
 
 <section id="news">
-    <div class="container-clearfix">
+    <div class="container-clearfix" data-aos="fade-right" data-aos-delay="">
     
       
         <div class="col-news">
@@ -542,7 +549,7 @@
     <div class="container-clearfix">
     
       
-        <div class="col-interior">
+        <div class="col-interior"  data-aos="fade-right" data-aos-delay="">
 
           <div class="col-content">
             <h2>  INTERIOR & DESIGN
@@ -637,177 +644,10 @@
 <div class="container text-center "><h1 class="font-weight-bold">NEED ASSISTANCE TO BUY <br> OR SELL YOUR PROPERTY? <br>
     CALL US 78386402
 </h1></div>
-    <footer class="footer text-lg-start ">
-        <!-- Section: Social media -->
-        <section
-          class="d-flex justify-content-center justify-content-lg-between p-5 border-bottom"
-        >
-          <!-- Left -->
-          <div class="me-5 d-none d-lg-block">
-            <span>Get connected with us on social networks:</span>
-          </div>
-          <!-- Left -->
-      
-          <!-- Right -->
-          <div>
-            <a href="" class="me-4 text-reset">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-              <i class="fab fa-google"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-              <i class="fab fa-github"></i>
-            </a>
-          </div>
-          <!-- Right -->
-        </section>
-        <!-- Section: Social media -->
-      
-        <!-- Section: Links  -->
-        <section class="">
-          <div class="container text-md-start mt-5">
-            <!-- Grid row -->
-            <div class="row mt-3">
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <!-- Content -->
-                <h6 class="text-uppercase fw-bold mb-4">
-                  <i class="fas fa-gem me-3"></i>PROPRATER
-                </h6>
-                <h6>
-                 2307 Beverley Rd, New Yark
-                 + (0712) 819 79 555
-                 office@finance.com
-                </h6>
-              </div>
-              <!-- Grid column -->
-      
-              <!-- Grid column -->
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">
-                  COMPANY
-                </h6>
-                <p>
-                  <a href="#!" class="text-reset">Careers</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">About Us</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Form partners</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Terms</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Privacy Policy</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Contact Us</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Unsubscribe</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-      
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">
-                  PARTNER SITES 
-                </h6>
-                <p>
-                  <a href="#!" class="text-reset">Proptiger</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Makaan</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">IREF</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">realestate.com.au</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">realtor.com</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">99.co</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-               <!-- Grid column -->
-               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">
-                  EXPLORE
-                </h6>
-                <p>
-                  <a href="#!" class="text-reset">News</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Home Loans</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Sitemap</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">International</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-               <!-- Grid column -->
-               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="text-uppercase fw-bold mb-4">
-                  Follow 
-                </h6>
-                <p>
-                  <a href="#!" class="text-reset">Facebook</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Instagram</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Twitter</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Linkedin</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Pinterest</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Youtube</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-      
-            
-            </div>
-            <!-- Grid row -->
-          </div>
-        </section>
-        <!-- Section: Links  -->
-      
-        <!-- Copyright -->
-        <div class="text-left p-4 foot-title ">
-         
-          <a class="text-reset fw-bold" href="">&#169 2012-2022 Proprater</a>
-        </div>
-        <!-- Copyright -->
-      </footer>
+    
 </section>
-  
+<script>AOS.init({
+  duration:1200,
+  })</script>
+  </body>
+  {% endblock %}

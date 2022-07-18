@@ -1,3 +1,5 @@
+{% extends "base.html" %}
+{% block content %}
 {% load static %}
 <!doctype html>
 <html lang="en">
@@ -322,7 +324,7 @@
                 <div class="mb-3 d-flex phone">
 
                   <select  class=" form" aria-label="Default select Code" data-size="4">
-                    <option selected>+91</option>
+                    <option select>+91</option>
                     <option value="1">+01</option>
                     <option value="2">+02</option>
                     <option value="3">+03</option>
@@ -331,7 +333,7 @@
                 <div class="mb-3">
             
                   <select  class="form-control mr-auto" aria-label="Default select Area">
-                    <option selected>Select Property City</option>
+                    <option select>Select Property City</option>
                     <option value="1">New Delhi</option>
                     <option value="2">Agra</option>
                     <option value="3">Noida</option>
@@ -579,195 +581,12 @@ end here css####################################################################
 
 <!-- <section id="footer"> -->
 
-    <footer class="footer text-lg-start   ">
-
-        <!-- Section: Social media -->
-        
-        <div
-          class="row py-4 trusted p-5"
-        >
-          <!-- Left -->
-          <h6 class="col foot-head text-center text-uppercase font-weight-bold mb-4">
-            TRUSTED BY
-          </h6>
-          <!-- <h6 class="col foot-head  text-center  fw-bold mb-4 font-italic">
-            Signature Global
-          </h6><h6 class="col foot-head   text-center  mb-4 font-italic">
-            DLF
-          </h6><h6 class=" col foot-head  text-center   mb-4 font-italic">
-            Godrej Properties
-          </h6><h6 class="col foot-head   text-center  mb-4 font-italic">
-            M3M
-          </h6><h6 class="col foot-head   text-center  mb-4 font-italic">
-            Signature Global
-          </h6><h6 class="col foot-head   text-center  mb-4 font-italic">
-            DLF
-          </h6> -->
-          <!-- Left -->
-      
-          <!-- Right -->
-          <!-- <div>
-            <a href="" class="me-4 text-reset">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-              <i class="fab fa-google"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-              <i class="fab fa-github"></i>
-            </a>
-          </div> -->
-          <!-- Right -->
-        </div>
-        <!-- Section: Social media -->
-      
-        <!-- Section: Links  -->
-        
-          <div class="container-clearfix text-md-start mt-5">
-            <!-- Grid row -->
-            <div class="row mt-3">
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <!-- Content -->
-                <a class="navbar-brand w-75" href="#"><img class="img-responsive" src="{% static 'img/logo/Proprater w Logo.png'%}" alt="" srcset=""></a>
-                <h6 class="foot-logo-text mt-4">
-                 2307 Beverley Rd, New Yark
-                 + (0712) 819 79 555
-                 office@finance.com
-                </h6>
-              </div>
-              <!-- Grid column -->
-      
-              <!-- Grid column -->
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="foot-head text-uppercase fw-bold mb-4">
-                  COMPANY
-                </h6>
-                <p>
-                  <a href="#!" class="text-reset">Careers</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">About Us</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Form partners</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Terms</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Privacy Policy</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Contact Us</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Unsubscribe</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-      
-              <!-- Grid column -->
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="foot-head text-uppercase fw-bold mb-4">
-                  PARTNER SITES 
-                </h6>
-                <p>
-                  <a href="#!" class="text-reset">Proptiger</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Makaan</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">IREF</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">realestate.com.au</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">realtor.com</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">99.co</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-               <!-- Grid column -->
-               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="foot-head text-uppercase fw-bold mb-4">
-                  EXPLORE
-                </h6>
-                <p>
-                  <a href="#!" class="text-reset">News</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Home Loans</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Sitemap</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">International</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-               <!-- Grid column -->
-               <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <!-- Links -->
-                <h6 class="foot-head text-uppercase fw-bold mb-4">
-                  Follow 
-                </h6>
-                <p>
-                  <a href="#!" class="text-reset">Facebook</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Instagram</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Twitter</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Linkedin</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Pinterest</a>
-                </p>
-                <p>
-                  <a href="#!" class="text-reset">Youtube</a>
-                </p>
-              </div>
-              <!-- Grid column -->
-      
-            
-            </div>
-            <!-- Grid row -->
-          </div>
-        
-        <!-- Section: Links  -->
-      
-        <!-- Copyright -->
-        <div class="text-left p-4 foot-title ">
-         
-          <a class="text-reset fw-bold" href="">&#169 2012-2022 Proprater</a>
-        </div>
-        <!-- Copyright -->
-      </footer>
+</body>   
 
       <script>AOS.init({
-        // duration:1200,
+        duration:1200,
         })</script>
 <!-- </section> -->
   </body>
   </html>
+  {% endblock %}
