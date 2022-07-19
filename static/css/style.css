@@ -16,7 +16,7 @@ body
     font-family: 'Poppins', sans-serif;
    
 
-   
+    overflow-x: hidden;   
 }
 
 section{
@@ -57,14 +57,14 @@ section{
     padding: 0;
 }
 
-.navbar-brand {
-    /* padding-left: 0.3em;
-    padding-bottom: 0.1em; */
+.navbar-brand img{
+    width: 40%;
+    
 }
 
-/* a.navbar-brand img{
+a.navbar-brand img{
     width: 55%;
-} */
+}
 
 .btn
 {
@@ -1350,9 +1350,12 @@ select.form-search2{
 
 
    @media only screen and (min-width: 1024px) {
+    body{
+        overflow-x: hidden;
+    }
 
     a.navbar-brand img{
-        width: 20%;
+        width: 15%;
     }
     .banner-col{
      margin: 0;

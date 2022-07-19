@@ -48,6 +48,7 @@ section{
 .navbar ul  {
     /* background-color: #4a4a4c61; */
    text-transform: uppercase;
+   align-items: center;
   
 }
 
@@ -56,9 +57,14 @@ section{
     padding-bottom: 0.1em;
 }
 
-/* a.navbar-brand img{
+.navbar-brand img{
+    width: 40%;
+    
+}
+
+a.navbar-brand img{
     width: 55%;
-} */
+}
 
 .navbar .nav-item {
     margin: 1% 1.5em 1% 1.5em;
@@ -79,14 +85,16 @@ section{
     /* margin: 2%; */
     width: 100%;
     background-color: black;
-    border: solid black;
+    border: solid #000000;
     color: #fff;
+    font-weight: 600;
 }
 
 .btn-nav:hover {
     color: #fff;
     background-color: #285f38;
     border-color: #285f38;
+    
 }
 .banner
 {  
@@ -174,7 +182,7 @@ div.col-white .img-hover{
 .col-content
 {
     color: white;
-    padding: 2%  4.5%;
+    padding: 2%  8.5%;
     height: fit-content;
     max-width: 100%;
     width: auto;
@@ -210,7 +218,7 @@ div.col-white .img-hover{
 .col-content-text
 {
     color: white;
-    padding: 2.5% 4% 0%;
+    padding: 2.5% 10% 0%;
     height: fit-content;
     max-width: 100%;
     width: auto;
@@ -219,10 +227,33 @@ div.col-white .img-hover{
     justify-content: space-between;
 }
 
+
 .col-content-text2
 {
     color: white;
-    padding: 0% 4% 2%;
+    /* padding: 0% 4% 2%; */
+    height: fit-content;
+    max-width: 100%;
+    width: auto;
+   
+    
+    justify-content: space-around;
+}
+.col-content-text3
+{
+    color: white;
+    padding: 0% 10.0% 2%;
+    height: fit-content;
+    max-width: 100%;
+    width: auto;
+   
+    
+    justify-content: space-between;
+}
+.col-content-text4
+{
+    color: white;
+    padding: 2.5% 5% 0%;
     height: fit-content;
     max-width: 100%;
     width: auto;
@@ -232,9 +263,12 @@ div.col-white .img-hover{
 }
 .col-content2
 {   
-    color: black;
-    
-    /* margin: 1em  0em 25em 0em ; */
+    color: white;
+    padding: 2%  10.5%;
+    height: fit-content;
+    max-width: 100%;
+    width: auto;
+   
     
     justify-content: space-between;
 }
@@ -305,9 +339,10 @@ float: left;
 text-align: center;
 padding: 2%  ;
 color: rgb(11, 126, 1);
-box-shadow: 7px  7px 7px 0 rgba(101, 104, 108, 0.2);
+
 border: 1px solid rgba(192, 192, 192, 0.595);
 }
+.con-shadow{}
 .col-07
 {
     
@@ -385,11 +420,16 @@ select.form {
     border: wheat;
     color: white;
 }
-
+.boxes{
+    transition: 1s;
+    /* margin:  8% 0; */
+}
 .boxes:hover {
     transform:scale(1.1) ;
-    transition: all 0.3s ease-out;
-    opacity: 0.9;
+    z-index: 2;
+    margin:  6% 0;
+    /* transition: all 0.5s ease-out; */
+    /* opacity: 0.9; */
     /* border: 2px solid rgb(7, 7, 7) ; */
    
 
@@ -528,7 +568,7 @@ div.col.head1{
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
 }
 .img-banner{
-    padding: 5% 0 5% 5%;
+    padding: 0% 0 10% 5%;
 }
 .img-banner:hover{
     transform:scale(1.05) ;
@@ -540,7 +580,7 @@ div.col.head1{
     padding:1% 4% 0.2% 1%;
 }
 .banner-text h2{
-    font-size: 6vw;
+    font-size: 5vw;
     font-weight: 700;
     /* animation: alternate-reverse; */
 }
