@@ -33,7 +33,7 @@ section{
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
     /* flex-wrap: nowrap; */
     /* justify-content: space-between; */
-    padding: 0.5rem 1.2% 1% 10%;
+    padding: 0.5rem 10.0% 1% 10%;
   
    
     
@@ -149,7 +149,7 @@ font-size: 20px;
 
 
 div.col-white{
-    background-color: white;
+    /* background-color: white; */
     padding: 0;
     /* margin: 0 2% 0; */
     height: fit-content;
@@ -163,6 +163,12 @@ div.col-white img{
 }
 div.col-white img:hover{
 opacity: 1;
+background-color: #285f38;
+    border: white .7px solid;
+    box-shadow: 0 0 5px #285f38,
+    0 0 15px #285f38,
+    0 0 20px #285f38,
+    0 0 100px #285f38;
 }
 div.col-white .img-hover{
     opacity: 0;
@@ -170,6 +176,10 @@ div.col-white .img-hover{
     top: 0;
     left: 0;
 
+}
+div.col-white p{
+    margin-top: 2px;
+    font-size: 1.0vw;
 }
 .col-05
 {   width: 66.3%;
@@ -499,12 +509,17 @@ select.form {
 .btn-success{
     background-color: #285f38;
     margin-top: 2%;
+    
     /* animation:up-down 2s ease-in-out infinite normal both; */
 }
 
 .btn-success:hover{
-    
-   
+    background-color: #285f38;
+    border: #285f38;
+    box-shadow: 0 0 0px #285f38,
+    0 0 15px #285f38,
+    0 0 0px #285f38,
+    0 0 100px #285f38;
 }
 
 .foot-title{
@@ -798,7 +813,9 @@ p{padding: 1%;}
 
  @media only screen and (max-width: 575px) {
 
-   
+   .navbar-brand{
+    width: 50%;
+   }
     .img-banner{
         display: none;
     }
