@@ -22,7 +22,7 @@ body
 }
 
 section{
-    margin: 2em ;
+    margin: 2rem 5rem;
     /* overflow-x: hidden; */
     
     
@@ -33,7 +33,7 @@ section{
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
     /* flex-wrap: nowrap; */
     /* justify-content: space-between; */
-    padding: 0.5rem 10.0% 1% 10%;
+    padding: 0.5rem 4.0% 1% 4%;
   
    
     
@@ -75,7 +75,7 @@ section{
 }
 .btn
 {
-    font-size: 1.8vh;
+    font-size: 1.5vh;
    /* margin-left: 2vh;  */
     border-radius: 5vh;
 }
@@ -96,7 +96,7 @@ section{
 }
 .banner
 {  
-     margin: 0 8% 2%;
+     /* margin: 0 8% 2%; */
     /* margin-bottom:2% ; */
     /* overflow-x: auto; */
 }
@@ -112,7 +112,9 @@ font-size: 20px;
 /* .banner-pics{
     padding: 10%;
 } */
-
+.greenbox{
+    width: 60%;
+}
 .col-03
 {   
     max-width: 100%;
@@ -123,7 +125,7 @@ font-size: 20px;
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
 }
 .allgreen{
-    justify-content: space-evenly;
+    /* justify-content: space-between; */
 }
 
 .col-04{
@@ -133,7 +135,7 @@ font-size: 20px;
     width: 100%;  
     max-height: fit-content;
     background: #285f38;
-    margin: 1em 0 2em;
+    margin: 0em 0 2em;
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
 }
 /* .greens-space{
@@ -190,7 +192,7 @@ div.col-white p{
 .col-content
 {
     color: white;
-    padding: 2%  8.5%;
+    padding: 2%  3.5%;
     height: fit-content;
     max-width: 100%;
     width: auto;
@@ -219,14 +221,14 @@ div.col-white p{
  
 
 .col-content .col-sm-6{
-    padding: 2%;
+    padding: 0% 2% ;
 }
 
 
 .col-content-text
 {
     color: white;
-    padding: 2.5% 10% 0%;
+    padding: 2.5% 5% 0%;
     height: fit-content;
     max-width: 100%;
     width: auto;
@@ -239,18 +241,18 @@ div.col-white p{
 .col-content-text2
 {
     color: white;
-    /* padding: 0% 4% 2%; */
+    padding: 0% 5% 2%;
     height: fit-content;
     max-width: 100%;
     width: auto;
    
     
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .col-content-text3
 {
     color: white;
-    padding: 0% 10.0% 2%;
+    padding: 0% 5.0% 2%;
     height: fit-content;
     max-width: 100%;
     width: auto;
@@ -261,7 +263,7 @@ div.col-white p{
 .col-content-text4
 {
     color: white;
-    padding: 2.5% 5% 0%;
+    padding: 2.5% 4% 0%;
     height: fit-content;
     max-width: 100%;
     width: auto;
@@ -272,7 +274,7 @@ div.col-white p{
 .col-content2
 {   
     color: white;
-    padding: 2%  10.5%;
+    padding: 0.2%  5%;
     height: fit-content;
     max-width: 100%;
     width: auto;
@@ -300,7 +302,7 @@ text-align: right;
 .col-content-text2 p
 {
     margin: 0.5%;
-    padding: .5em;
+    padding: .5rem 0rem;
     font-weight: 400;
     font-size: 1.1vw;
 
@@ -318,7 +320,7 @@ float: left;
     /* height: 30px;
     width: 60px;
     font-size: 5px; */
-    margin: 6% 0 36%;
+    /* margin: 6% 0 36%; */
     color: #285f38;
     font-weight: 600;
 
@@ -335,12 +337,12 @@ float: left;
     font-size: large;
     margin: 0 .5em 0;
     max-width: 100%;
-    width:30%;
+    width:33%;
     height: fit-content;
     justify-content: space-between;
     justify-items: center;
     background-color: #e6f1e9;
-    margin: 1%;
+    margin: 0 1% 1% 3%;
     top: 10px;
     /* left: 100%; */
     
@@ -430,12 +432,13 @@ select.form {
 }
 .boxes{
     transition: 1s;
+    margin:  4% 0;
     /* margin:  8% 0; */
 }
 .boxes:hover {
-    transform:scale(1.1) ;
+    transform:scale(1.05) ;
     z-index: 2;
-    margin:  6% 0;
+    
     /* transition: all 0.5s ease-out; */
     /* opacity: 0.9; */
     /* border: 2px solid rgb(7, 7, 7) ; */
@@ -581,7 +584,7 @@ div.col.head1{
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
 }
 .img-banner{
-    padding: 0% 0 10% 5%;
+    padding: 0% 7.5% 10% 0%;
 }
 .img-banner:hover{
     transform:scale(1.05) ;
@@ -590,7 +593,8 @@ div.col.head1{
 
 }
 .banner-text{
-    padding:1% 4% 0.2% 1%;
+    padding:1% 0% 0% 0%;
+    
 }
 .banner-text h2{
     font-size: 5vw;
@@ -658,9 +662,9 @@ div.col.head1{
  .col-text{
     width: 100%;
     position: absolute;
-    left: 19.0%;
+    left: 26.0%;
     /* top: 0; */
-    bottom: 35%;
+    bottom: 42%;
     
     opacity: 0;
     
@@ -672,9 +676,9 @@ div.col.head1{
  .col-text2{
     width: 100%;
     position: absolute;
-    left: 25%;
+    left: 30%;
     /* top: 0; */
-    bottom: 23%;
+    bottom: 35%;
     
     opacity: 0;
     
@@ -810,7 +814,9 @@ p{padding: 1%;}
  }
 
  @media only screen and (max-width: 575px) {
-
+.greenbox{ 
+    width: 100%;
+}
    .navbar-brand{
     width: 50%;
    }
@@ -848,7 +854,7 @@ p{padding: 1%;}
 
  @media only screen and (max-width: 360px) {
     * {
-        overflow-x: hidden;
+        /* overflow-x: hidden; */
     }
     /* body {
         width: 100%;
@@ -955,6 +961,17 @@ font-weight: 600;
 font-size: 2.8vw;
 text-align: right;
 }
+.col-content-text4 h2{
+    font-weight: 600;
+    font-size: 3vw;
+    text-align: left;
+}
+.col-content-text4 h3{
+    font-size: 2.5vw;
+    font-weight: 600;
+    text-align: right;
+}
+
 .col-content-text2 p
 {
     margin: 0.5%;
