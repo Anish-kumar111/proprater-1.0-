@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>PROPRATER PROJECTS</title>
     <link rel="stylesheet" href="{% static 'css/projects.css'%}">  
+    <!-- <link rel="stylesheet" href="{% static 'css/style.css'%}">  -->
     <!-- <script src="{% static 'js/stickynav.js'%}"></script> -->
     <!-- owl carousel -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -17,53 +18,57 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
 </head>
+
     <body>
-      <header id="nav">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">PROPRATER HOME</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item ">
-                  <a class="nav-link" href="{% url 'main:projects' %}">projects </a>
+      <nav class="navbar navbar-expand-lg navbar-light" >
+        <a class="navbar-brand " href="#" data-aos="fade-right" data-aos-delay=""><img class="img-responsive" src="{% static 'img/logo/Proprater Logo.png'%}" alt="" srcset=""></a>
+    
+          <button class="navbar-toggler" data-aos="fade-left" data-aos-delay="" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" data-aos="fade-left" data-aos-delay="">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="{% url 'main:projects' %}">projects </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">news</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                  blog
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="{% url 'main:interior' %}">interior</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">news</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
-                    blog
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </div>
+                  <a class="nav-link" href="#">exclusive</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'main:interior' %}">interior</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">exclusive</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">contact us</a>
-                  </li>
-                  <button type="button" class="btn btn-dark">POST YOUR PROPERTY</button>
-    
-              </ul>
-              <!-- <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form> -->
-            </div>
-          </nav>
-    
-        </header>       
+                  <a class="nav-link" href="#">contact us</a>
+                </li>
+                <li>
+                <button type="button" class="btn btn-nav mt-2">POST YOUR PROPERTY</button>
+              </li>
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+          </div>
+        </nav>
+
+
+
+        
 <section id="banner">
     <div class="jumbotron">
       <div id="owl-banner" class="owl-carousel owl-theme">
@@ -153,7 +158,7 @@
       </script>
 </section>
 
-<section id="projectsNav">
+<section id="projectsNav stickyspace">
     <div class="me_sticky stickyspace">
     <nav  class="navbar navbar-expand-lg navbar-dark bg-dark me_stickyNav">
         <!-- <a class="navbar-brand" href="#">PROPRATER HOME</a> -->
@@ -222,8 +227,10 @@
 
 <section id="overview">
     <div style="" class="container-clearfix">
-        <div class="row justify-content-between ">
-            
+        <div class="row ">
+         <div class="fullslide">
+
+          
         <div class="jumbotron jumbotron-card col-sm">
             <div class="row">
                 
@@ -255,7 +262,308 @@
             </div>
         </div>
         </div>
-        <div class=" contact-form col-sm">
+
+        
+
+<div class="floorplan">
+  <div class="row">
+      
+          <div class="jumbotron jumbotron-card">
+              <div class="row">
+                <h2>Godrej Retreat Price & Floor plan</h2>
+                <div id="owl-floorplan" class="owl-carousel owl-theme">
+                 
+                  <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
+                  <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
+                  <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
+                  <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
+                  <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
+                  <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
+                  <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
+                  <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
+                  
+                </div>
+              </div>
+
+              <script>
+       
+                $(document).ready(function() {
+             
+              $("#owl-floorplan").owlCarousel({
+             
+                lazyLoad:true,
+                items:2,
+                autoplay: false,
+                margin:20,
+                smartSpeed: 1500,
+                nav:true,
+                navText : ["<i class='fa fa-chevron-left owl-prop-left2'></i>","<i class='fa fa-chevron-right owl-prop-right2'></i>"],
+                
+                dots: true,
+                loop : true,
+                responsiveClass:true,
+                responsive:{
+                        0:{
+                            items:1,
+                            
+                        },
+                        600:{
+                            items:3,
+                            
+                        },
+                        1000:{
+                            items:5
+                        }
+                    }
+                 
+             
+        
+              });
+             
+            });
+              
+             
+                </script>
+              <hr>
+              
+
+
+
+          <div class="row">
+                  <div class="col-sm">
+                   <h3>Residental plot</h3>
+                   <h3><span>Plot Area</span>: 110.00 sq.yd</h3>
+                      
+                  </div>
+                  <div class="col-sm floorprice">
+                     
+                     <h3>&#8377 60.5L</h3> 
+                  
+              </div>
+          </div>
+          <div class="floorplan-img "><img class="img-fluid" src="{% static 'img/floorplan.png'%}" alt="" srcset=""></div>
+          <div class="row">
+                  <div class="col-sm">
+                   
+                      <li class="floor-btn"><button type="submit" class="btn btn-primary text-uppercase" >see more videos</button></li>
+                  </div>
+                  <div class="col-sm">
+                     
+                      
+                  
+              </div>
+          </div>
+          </div>
+      
+  </div>
+</div>
+
+
+
+
+<div class="col text-uppercase text-center advertisement"><h1>advertisement</h1></div>
+<div class="overview2">
+  
+  <div class="row">
+      
+          <div class="jumbotron jumbotron-card">
+              
+              <div class="row">
+                  
+                  <h2>PROJECT VIDEO</h2>
+              </div>
+             
+          <div class="floorplan-img "><img class="img-fluid" src="{% static 'img/floorplan.png'%}" alt="" srcset=""></div>
+          <div class="row">
+                  <div class="col">
+                   
+                      <li class="floor-btn"><button type="submit" class="btn btn-primary text-uppercase" >Learn More</button></li>
+                  </div>
+                  <div class="col">
+                     
+                      
+                  
+              </div>
+          </div>
+          </div>
+      
+  </div>
+</div>
+
+
+
+
+
+  
+ 
+  <div class="overview2">
+      
+      <div class="map">
+          
+              <div class="jumbotron jumbotron-card">
+                  
+                  <div class="row">
+                      
+                      <h2 class="text-uppercase">Location Map</h2>
+                  </div>
+                 
+                  <div class="responsive-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.7806761080233!2d-93.29138368446431!3d44.96844997909819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32b6ee2c87c91%3A0xc20dff2748d2bd92!2sWalker+Art+Center!5e0!3m2!1sen!2sus!4v1514524647889" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+              <div class="row">
+                      <div class="col">
+                       
+                          <li class="floor-btn mt-2"><button type="submit" class="btn btn-primary text-uppercase" >Learn More</button></li>
+                      </div>
+                      <div class="col">
+                         
+                          
+                      
+                  </div>
+              </div>
+              </div>
+          
+      </div>
+  </div>
+
+
+
+
+  <!-- <div class="col text-uppercase text-center advertisement"><h1>advertisement</h1></div> -->
+  <div class="overview2">
+      
+      <div class="row">
+          
+              <div class="jumbotron jumbotron-card">
+                  
+                  <div class="row">
+                      
+                      <h2 class="">About Godrej Retreat</h2>
+                  </div>
+                 
+              <div class="about-text"><h4>ut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes l</h4></div>
+              <div class="row">
+                      <div class="col">
+                       
+                          <li class="floor-btn"><button type="submit" class="btn btn-primary text-uppercase" >see More about project</button></li>
+                      </div>
+                      <div class="col">
+                         
+                          
+                      
+                  </div>
+              </div>
+              </div>
+          
+      </div>
+  </div>  
+
+
+
+
+
+  <div class="col text-uppercase text-center advertisement"><h1>advertisement</h1></div>
+  <div class="overview2">
+      
+      <div class="row">
+          
+              <div class="jumbotron jumbotron-card">
+                  
+                  <div class="row">
+                      
+                      <h2 class="">Similar Properties to Godrej Retreat</h2>
+                  </div>
+                 
+                  <div id="owl-s-prop" class="owl-carousel owl-theme">
+                      <div class="trendcol boxes col" data-aos="fade-up"><img  class="img-fluid" src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1147&q=80" alt="" srcset=""><div class="icon-box2"><div class="icon"><i class="bx bxl-dribbble"></i></div>
+                      <div class="title">M2k VICTORIA GARDEN</div>
+                      <div class="vendor">By <a href="">M2K INDIA</a> </div>
+                      <p class="description">Faridabad India,  3,4,5,BHK Penthouse</p>
+                      <div class="price-range">2.4CR-11.31CR</div></div><button type="submit" class="btn btn-trend text-uppercase" >SEE DETAILS</button>  </div>  
+                      <div class="trendcol boxes  col" data-aos="fade-up"><img class="img-fluid" src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1147&q=80" alt="" srcset=""><div class="icon-box2"><div class="icon"><i class="bx bxl-dribbble"></i></div>
+                      <div class="title">M2k VICTORIA GARDEN</div>
+                      <div class="vendor">By <a href="">M2K INDIA</a></div>
+                      <p class="description">Faridabad India,  3,4,5,BHK Penthouse</p>
+                      <div class="price-range">2.4CR-11.31CR</div></div><button type="submit" class="btn btn-trend text-uppercase" >SEE DETAILS</button>  </div>
+                      <div class="trendcol boxes col" data-aos="fade-up"><img class="img-fluid" src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1147&q=80" alt="" srcset=""><div class="icon-box2"><div class="icon"><i class="bx bxl-dribbble"></i></div>
+                      <div class="title">M2k VICTORIA GARDEN</div>
+                      <div class="vendor">By <a href="">M2K INDIA</a></div>
+                      <p class="description">Faridabad India,  3,4,5,BHK Penthouse</p>
+                      <div class="price-range">2.4CR-11.31CR</div></div><button type="submit" class="btn btn-trend text-uppercase" >SEE DETAILS</button>  </div>
+                      
+                    </div>
+              <div class="row">
+                      <div class="col">
+                       
+                          <li class="floor-btn"><button type="submit" class="btn btn-primary text-uppercase" >Learn More</button></li>
+                      </div>
+                      <div class="col">
+                         
+                          
+                      
+                  </div>
+              </div>
+              </div>
+          
+      </div>
+  </div>  
+  <div class="row">
+    
+    
+        <div class="row">
+          <div class="col">
+           
+          </div>
+           <!-- <div class="col"><button type="submit" class="btn btn-dark font-weight-bold">VIEW ALL</button> </div> -->
+        </div>
+
+        
+        
+        
+          </div>
+  
+        <script>
+       
+            $(document).ready(function() {
+         
+          $("#owl-s-prop").owlCarousel({
+         
+            lazyLoad:true,
+            items:2,
+            autoplay: true,
+            margin:20,
+            smartSpeed: 1500,
+            nav:true,
+            navText : ["<i class='fa fa-chevron-left owl-prop-left'></i>","<i class='fa fa-chevron-right owl-prop-right'></i>"],
+            
+            dots: true,
+            loop : true,
+            responsiveClass:true,
+            responsive:{
+                    0:{
+                        items:1,
+                        
+                    },
+                    600:{
+                        items:1,
+                        
+                    },
+                    1000:{
+                        items:2
+                    }
+                }
+             
+         
+    
+          });
+         
+        });
+          
+         
+            </script>
+         </div>
+         
+        <div class="contact-form">
                 
      
             <div class="">
@@ -291,350 +599,47 @@
                       <button type="submit" class="btn btn-primary contact-btn" style="width: 100%;">SUBMIT</button>
                   </form>
                 </div>
-              </div>
-        
-    </div>
-    </div>
-
-
-
-
-
-
-<script>
-
-
-    var stickyEl = document.querySelector('.me_sticky')
-    var stickyEl2 = document.querySelector('.contact-form')
-    var stickyPosition = stickyEl.getBoundingClientRect().top;
-    var stickyPosition2 = stickyEl2.getBoundingClientRect().top;
-    var offset = -20
-    window.addEventListener('scroll', () => {
-        if (window.pageYOffset >= stickyPosition + offset) {
-            stickyEl.style.position = 'fixed';
-            stickyEl.style.top = '0';
-            stickyEl.style.zIndex = '100';
-            // stickyEl.style.left = '76.2%';
-        }
-        if (window.pageYOffset >= stickyPosition2 + offset) {
-            stickyEl2.style.position = 'fixed';
-            stickyEl2.style.top = '15%';
-            stickyEl2.style.left = '60.5%';
-        if (screen.width <= 320 || screen.width <= 540 ){
-                  stickyEl2.style.left = '0';
-                  stickyEl2.style.position = 'static';
-                  stickyEl.style.left = '0';
-                  stickyEl.style.position = 'static';}
-            
-        } else {
-            stickyEl.style.position = 'static';
-            stickyEl.style.top = '0';
-            stickyEl2.style.position = 'static';
-            stickyEl2.style.top = '0';
-        }
-    });</script>
-
-
-</section>
-<!-- <section id="price-plan">
-<div class="floorplan">
-    <div class="row">
-        
-            <div class="jumbotron jumbotron-card">
-                <div class="row">
-                  <h2>Godrej Retreat Price & Floor plan</h2>
-                  <div id="owl-floorplan" class="owl-carousel owl-theme">
-                   
-                    <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
-                    <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
-                    <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
-                    <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
-                    <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
-                    <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
-                    <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
-                    <div class="sq-yards"><h4>110.00 sq.yd </h4></div>
-                    
-                  </div>
-                </div>
-
-                <script>
-         
-                  $(document).ready(function() {
-               
-                $("#owl-floorplan").owlCarousel({
-               
-                  lazyLoad:true,
-                  items:2,
-                  autoplay: false,
-                  margin:20,
-                  smartSpeed: 1500,
-                  nav:true,
-                  navText : ["<i class='fa fa-chevron-left owl-prop-left2'></i>","<i class='fa fa-chevron-right owl-prop-right2'></i>"],
-                  
-                  dots: true,
-                  loop : true,
-                  responsiveClass:true,
-                  responsive:{
-                          0:{
-                              items:1,
-                              
-                          },
-                          600:{
-                              items:3,
-                              
-                          },
-                          1000:{
-                              items:5
-                          }
-                      }
-                   
-               
-          
-                });
-               
-              });
-                
-               
-                  </script>
-                <hr>
-                
-
-
-
-            <div class="row">
-                    <div class="col-sm">
-                     <h3>Residental plot</h3>
-                     <h3><span>Plot Area</span>: 110.00 sq.yd</h3>
-                        
-                    </div>
-                    <div class="col-sm floorprice">
-                       
-                       <h3>&#8377 60.5L</h3> 
-                    
-                </div>
-            </div>
-            <div class="floorplan-img "><img class="img-fluid" src="{% static 'img/floorplan.png'%}" alt="" srcset=""></div>
-            <div class="row">
-                    <div class="col-sm">
-                     
-                        <li class="floor-btn"><button type="submit" class="btn btn-primary text-uppercase" >see more videos</button></li>
-                    </div>
-                    <div class="col-sm">
-                       
-                        
-                    
-                </div>
-            </div>
-            </div>
-        
-    </div>
-</div>
-
-</section> -->
-
-<section id="projectvideo">
-<div class="col text-uppercase text-center advertisement"><h1>advertisement</h1></div>
-<div class="overview2">
-    
-    <div class="row">
-        
-            <div class="jumbotron jumbotron-card">
-                
-                <div class="row">
-                    
-                    <h2>PROJECT VIDEO</h2>
-                </div>
-               
-            <div class="floorplan-img "><img class="img-fluid" src="{% static 'img/floorplan.png'%}" alt="" srcset=""></div>
-            <div class="row">
-                    <div class="col">
-                     
-                        <li class="floor-btn"><button type="submit" class="btn btn-primary text-uppercase" >Learn More</button></li>
-                    </div>
-                    <div class="col">
-                       
-                        
-                    
-                </div>
-            </div>
-            </div>
-        
-    </div>
-</div>
-</section>
-
-
-
-<section id="map">
-    
-   
-    <div class="overview2">
-        
-        <div class="map">
-            
-                <div class="jumbotron jumbotron-card">
-                    
-                    <div class="row">
-                        
-                        <h2 class="text-uppercase">Location Map</h2>
-                    </div>
-                   
-                    <div class="responsive-map">
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.7806761080233!2d-93.29138368446431!3d44.96844997909819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32b6ee2c87c91%3A0xc20dff2748d2bd92!2sWalker+Art+Center!5e0!3m2!1sen!2sus!4v1514524647889" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                      </div>
-                <div class="row">
-                        <div class="col">
-                         
-                            <li class="floor-btn mt-2"><button type="submit" class="btn btn-primary text-uppercase" >Learn More</button></li>
-                        </div>
-                        <div class="col">
-                           
-                            
-                        
-                    </div>
-                </div>
-                </div>
-            
-        </div>
-    </div>
-
-</section>
-
-<section id="about">
-    <!-- <div class="col text-uppercase text-center advertisement"><h1>advertisement</h1></div> -->
-    <div class="overview2">
-        
-        <div class="row">
-            
-                <div class="jumbotron jumbotron-card">
-                    
-                    <div class="row">
-                        
-                        <h2 class="">About Godrej Retreat</h2>
-                    </div>
-                   
-                <div class="about-text"><h4>ut I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes l</h4></div>
-                <div class="row">
-                        <div class="col">
-                         
-                            <li class="floor-btn"><button type="submit" class="btn btn-primary text-uppercase" >see More about project</button></li>
-                        </div>
-                        <div class="col">
-                           
-                            
-                        
-                    </div>
-                </div>
-                </div>
-            
-        </div>
-    </div>  
-
-
-</section>
-
-<section style="margin: 2.1em;" id="similar-props">
-    <div class="col text-uppercase text-center advertisement"><h1>advertisement</h1></div>
-    <div class="overview2">
-        
-        <div class="row">
-            
-                <div class="jumbotron jumbotron-card">
-                    
-                    <div class="row">
-                        
-                        <h2 class="">Similar Properties to Godrej Retreat</h2>
-                    </div>
-                   
-                    <div id="owl-s-prop" class="owl-carousel owl-theme">
-                        <div class="trendcol boxes col" data-aos="fade-up"><img  class="img-fluid" src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1147&q=80" alt="" srcset=""><div class="icon-box2"><div class="icon"><i class="bx bxl-dribbble"></i></div>
-                        <div class="title">M2k VICTORIA GARDEN</div>
-                        <div class="vendor">By <a href="">M2K INDIA</a> </div>
-                        <p class="description">Faridabad India,  3,4,5,BHK Penthouse</p>
-                        <div class="price-range">2.4CR-11.31CR</div></div><button type="submit" class="btn btn-trend text-uppercase" >SEE DETAILS</button>  </div>  
-                        <div class="trendcol boxes  col" data-aos="fade-up"><img class="img-fluid" src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1147&q=80" alt="" srcset=""><div class="icon-box2"><div class="icon"><i class="bx bxl-dribbble"></i></div>
-                        <div class="title">M2k VICTORIA GARDEN</div>
-                        <div class="vendor">By <a href="">M2K INDIA</a></div>
-                        <p class="description">Faridabad India,  3,4,5,BHK Penthouse</p>
-                        <div class="price-range">2.4CR-11.31CR</div></div><button type="submit" class="btn btn-trend text-uppercase" >SEE DETAILS</button>  </div>
-                        <div class="trendcol boxes col" data-aos="fade-up"><img class="img-fluid" src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1147&q=80" alt="" srcset=""><div class="icon-box2"><div class="icon"><i class="bx bxl-dribbble"></i></div>
-                        <div class="title">M2k VICTORIA GARDEN</div>
-                        <div class="vendor">By <a href="">M2K INDIA</a></div>
-                        <p class="description">Faridabad India,  3,4,5,BHK Penthouse</p>
-                        <div class="price-range">2.4CR-11.31CR</div></div><button type="submit" class="btn btn-trend text-uppercase" >SEE DETAILS</button>  </div>
-                        
-                      </div>
-                <div class="row">
-                        <div class="col">
-                         
-                            <li class="floor-btn"><button type="submit" class="btn btn-primary text-uppercase" >Learn More</button></li>
-                        </div>
-                        <div class="col">
-                           
-                            
-                        
-                    </div>
-                </div>
-                </div>
-            
-        </div>
-    </div>  
-    <div class="row">
-      
-      
-          <div class="row">
-            <div class="col">
-             
-            </div>
-             <!-- <div class="col"><button type="submit" class="btn btn-dark font-weight-bold">VIEW ALL</button> </div> -->
-          </div>
-  
-          
-          
-          
-            </div>
-    
-          <script>
-         
-              $(document).ready(function() {
-           
-            $("#owl-s-prop").owlCarousel({
-           
-              lazyLoad:true,
-              items:2,
-              autoplay: true,
-              margin:20,
-              smartSpeed: 1500,
-              nav:true,
-              navText : ["<i class='fa fa-chevron-left owl-prop-left'></i>","<i class='fa fa-chevron-right owl-prop-right'></i>"],
+              <!-- here -->
               
-              dots: true,
-              loop : true,
-              responsiveClass:true,
-              responsive:{
-                      0:{
-                          items:1,
-                          
-                      },
-                      600:{
-                          items:1,
-                          
-                      },
-                      1000:{
-                          items:2
-                      }
-                  }
-               
-           
-      
-            });
-           
-          });
-            
-           
-              </script>
+        
     </div>
+    </div>
+
+
+
+
+
+
+    <!-- <script>
+
+
+      var stickyEl = document.querySelector('.me_sticky')
+      
+      var stickyPosition = stickyEl.getBoundingClientRect().top;
+      
+      var offset = -20
+      window.addEventListener('scroll', () => {
+          if (window.pageYOffset >= stickyPosition + offset) {
+              stickyEl.style.position = 'fixed';
+              stickyEl.style.top = '0';
+              screen.width = '100%';
+              stickyEl.style.zIndex = '100';
+              // stickyEl.style.left = '76.2%';
+          }
+          
+          // if (screen.width <= 320 || screen.width <= 540 ){
+                    
+          //           stickyEl.style.left = '0';
+          //           stickyEl.style.position = 'static';}
+              
+          else {
+              stickyEl.style.position = 'static';
+              stickyEl.style.top = '0';
+              
+          }
+      });</script> -->
+
   </section>    
   
-    </body>
+   
 {% endblock %}

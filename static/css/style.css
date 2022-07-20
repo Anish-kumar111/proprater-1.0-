@@ -62,9 +62,7 @@ section{
     
 }
 
-a.navbar-brand img{
-    width: 55%;
-}
+
 
 .btn
 {
@@ -1355,7 +1353,7 @@ select.form-search2{
     }
 
     a.navbar-brand img{
-        width: 15%;
+        width: 30%;
     }
     .banner-col{
      margin: 0;
