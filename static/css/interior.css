@@ -33,7 +33,7 @@ section{
     box-shadow: 2px 7px 7px 0 rgba(101, 104, 108, 0.2);
     /* flex-wrap: nowrap; */
     /* justify-content: space-between; */
-    padding: 0.5rem 4.0% 1% 4%;
+    padding: 1% 4.0% 1% 4%;
   
    
     
@@ -48,7 +48,7 @@ section{
 .navbar ul  {
     /* background-color: #4a4a4c61; */
    text-transform: uppercase;
-   align-items: center;
+   /* align-items: center; */
   
 }
 
@@ -68,7 +68,7 @@ section{
     margin: 1% 1.5em 1% 1.5em;
 }
 .navbar-collapse{
-    z-index: 999;
+    /* z-index: 999; */
 }
 .navbar-light .navbar-nav .nav-link {
     color: black;
@@ -204,7 +204,7 @@ div.col-white p{
 .col-content-int
 {
     color: white;
-    padding: 1.5%  3.5% 3.5% ;
+    padding: 1.5%  3.5% 0% ;
     height: fit-content;
     max-width: 100%;
     width: auto;
