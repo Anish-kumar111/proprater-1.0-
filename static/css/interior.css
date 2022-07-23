@@ -901,7 +901,9 @@ section{
     a.navbar-brand img{
         width: 70%;
     }
-
+    .navbar-brand{
+        width: 50%;
+    }
     .img-banner{
         display: none;
     }
@@ -1021,9 +1023,7 @@ text-align: left;
 float: left;
 }
 
-.navbar-brand{
-    width: 50%;
-}
+
 .head1 h2{
     font-size: 4.5vw;
     font-weight: 700;

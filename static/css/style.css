@@ -20,7 +20,8 @@ body
 }
 
 section{
-    margin: 0;
+    margin: 1%;
+    /* padding: 3%; */
     overflow-x: hidden;
     
 }
@@ -35,30 +36,35 @@ section{
 {
  color: black;
  
- font-size: 2vh;
+ /* font-size: 2vh; */
  
 }
 .navbar ul  {
     /* background-color: #4a4a4c61; */
    text-transform: uppercase;
-   align-items: center;
+   /* align-items: center; */
   
 }
 .navbar .nav-item {
     margin: 1% 1.5em 1% 1.5em;
+    list-style: none;
 }
-.navbar-collapse{
-    z-index: 999;
-}
+
 .navbar-light .navbar-nav .nav-link {
     color: black;
     align-items: center;
-    font-size: .8rem;
+    font-size: 1rem;
     padding: 0;
+    
+}
+
+.navbar-brand {
+    padding-left: 0.3em;
+    padding-bottom: 0.1em;
 }
 
 .navbar-brand img{
-    width: 40%;
+    width: 60%;
     
 }
 
@@ -1351,16 +1357,21 @@ select.form-search2{
     body{
         overflow-x: hidden;
     }
-
+    .h-foot img{
+        width: 50%!important;
+    }
+    .navbar-brand{
+        width: 10%;
+    }
     a.navbar-brand img{
-        width: 30%;
+        width: 100%;
     }
     .banner-col{
      margin: 0;
      border-radius: .5em;
     }
      .search-img{
-         height: 70vh;
+         height: 90vh;
      }
      #owl-banner .owl-left{
          position: absolute;
